@@ -1,0 +1,215 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "E48SC12030NRFH"
+   (description "Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A")
+   (family "ANA")
+   (package "E48SC12030NRFH")
+   (attribute "Datasheet Link" "https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf")
+   (attribute "Geometry.Height" "13.2mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Delta Electronics")
+   (attribute "Manufacturer_Part_Number" "E48SC12030NRFH")
+   (gate
+    (symbol "E48SC12030NRFH")
+    (pin "VIN(+)" 1 PS)
+    (pin "ON/OFF" 2 PS)
+    (pin "VIN(-)" 3 PS)
+    (pin "VOUT(-)" 4 PS)
+    (pin "TRIM" 5 PS)
+    (pin "VOUT(+)" 6 PS)
+    (pin "C2" 7 PS)
+    (pin "SIG_GND" 8 PS)
+    (pin "DATA" 9 PS)
+    (pin "SMBALERT" 10 PS)
+    (pin "CLOCK" 11 PS)
+    (pin "ADDR1" 12 PS)
+    (pin "ADDR0" 13 PS)
+   )
+  )
+  (symbol "E48SC12030NRFH"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "E48SC12030NRFH"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.8 3.76)
+      (pt 54.6 3.76)
+      (pt 54.6 -19.04)
+      (pt -3.8 -19.04)
+      (pt -3.8 3.76))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.8 3.76)
+      (pt 54.6 3.76)
+      (pt 54.6 -19.04)
+      (pt -3.8 -19.04)
+      (pt -3.8 3.76))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.8 4.76)
+      (pt 55.6 4.76)
+      (pt 55.6 -20.04)
+      (pt -4.8 -20.04)
+      (pt -4.8 4.76))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.4 0)
+      (arc (pt -4.400 0.000) (pt -4.400 -0.050) (pt -4.300 0.050) (start 180.0) (sweep 180.0))
+      (pt -4.3 0)
+      (arc (pt -4.300 0.000) (pt -4.400 -0.050) (pt -4.300 0.050) (start 180.0) (sweep .0))
+      (pt -4.4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 -7.620) (padstack 2))
+   (leg 3 (pt 0.000 -15.240) (padstack 3))
+   (leg 4 (pt 50.800 -15.240) (padstack 4))
+   (leg 5 (pt 50.800 -7.620) (padstack 5))
+   (leg 6 (pt 50.800 0.000) (padstack 6))
+   (leg 7 (pt 53.340 -13.620) (padstack 0))
+   (leg 8 (pt 53.340 -11.620) (padstack 0))
+   (leg 9 (pt 53.340 -9.620) (padstack 0))
+   (leg 10 (pt 53.340 -7.620) (padstack 0))
+   (leg 11 (pt 53.340 -5.620) (padstack 0))
+   (leg 12 (pt 53.340 -3.620) (padstack 0))
+   (leg 13 (pt 53.340 -1.620) (padstack 0))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (padstack 2
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 3
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 4
+    (hole 2.1)
+    (plated true)
+    (pad (layer TCOP) (round 3.150))
+    (pad (layer INNER) (round 3.150))
+    (pad (layer BCOP) (round 3.150))
+   )
+   (padstack 5
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 6
+    (hole 2.1)
+    (plated true)
+    (pad (layer TCOP) (round 3.150))
+    (pad (layer INNER) (round 3.150))
+    (pad (layer BCOP) (round 3.150))
+   )
+   (model "E48SC12030NRFH.stp"
+    (euler 0 0 0)
+    (offset 25.399999618530273 -7.639999866485596 0.23999999463558197)
+   )
+  )
+ )
+)

@@ -14,5 +14,4 @@
 	(lib (name "2026-09-19_00-39-41") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/796636-6 (tether wall connector)/2026-09-19_00-39-41.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-09-19_01-29-57") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/TCAN1044/2026-09-19_01-29-57.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-09-19_01-36-18") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/SMCJ58A/2026-09-19_01-36-18.kicad_sym") (options "") (descr ""))
-	(lib (name "E48SC12030NRFH") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/E48SC12030NRFH/E48SC12030NRFH/KiCad/E48SC12030NRFH.kicad_sym") (options "") (descr ""))
 )

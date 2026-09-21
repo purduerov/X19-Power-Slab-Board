@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "E48SC12030NRFH"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-07-10-14:00:10)
+    (mountForm default
+        (footprintRef "E48SC12030NRFH")
+        (spec "System")
+    )
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "E48SC12030NRFH"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "E48SC12030NRFH")
+        (spec "default")
+    )
+)

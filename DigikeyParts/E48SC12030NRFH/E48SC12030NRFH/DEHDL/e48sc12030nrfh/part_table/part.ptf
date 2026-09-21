@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'E48SC12030NRFH'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Delta Electronics", "E48SC12030NRFH" (!) = "", "E48SC12030NRFH", "Other", "", "", "Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A", "https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf", "13.2 mm"
+END_PART
+
+END.

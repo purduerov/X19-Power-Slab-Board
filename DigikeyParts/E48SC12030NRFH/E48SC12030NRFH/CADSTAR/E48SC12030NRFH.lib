@@ -1,0 +1,16 @@
+.E48SC12030NRFH :1 ;Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A
+E48SC12030NRFH
+*STM PS
+*NGS
+*PLB 1="VIN(+)" 2="ON/OFF" 3="VIN(-)" 4="VOUT(-)" 5="TRIM" 6="VOUT(+)" 7="C2" 8="SIG_GND" 9="DATA" 10="SMBALERT" 11="CLOCK" 12="ADDR1" 13="ADDR0"
+*MXP 13
+*DFN E48SC12030NRFH
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Delta Electronics)
+~!Manufacturer_Part_Number (E48SC12030NRFH)
+~!Link Datasheet (https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf)
+~!Height (13.2mm)
+~!3D_Model (E48SC12030NRFH)
+E48SC12030NRFH
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 
