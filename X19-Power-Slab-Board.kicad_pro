@@ -433,7 +433,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "R1-15,TP1-5,U1-6,D1-6,C1-8,Q1,#PWR1,J1-5,CR1,PS1-4",
+    "used_designators": "PS5-8,CR1,J1-5,#PWR1-58,Q1,C1-50,D1-6,B4_PG1-3,U1-8,TP1-6,R1-13,R15-21",
     "variants": []
   },
   "sheets": [
@@ -443,7 +443,11 @@
     ],
     [
       "9cedee09-c06b-48cb-af3a-8d02fe17e5cc",
-      "STM32 MCU and Power Bricks"
+      "MCU"
+    ],
+    [
+      "40111513-3970-440d-907d-e16164745ccd",
+      "Power"
     ]
   ],
   "text_variables": {},
