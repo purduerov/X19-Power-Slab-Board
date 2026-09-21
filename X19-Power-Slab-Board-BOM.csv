@@ -1,37 +1,31 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Pins,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name,Manufacturer_Part_Number,PARTREV,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,STANDARD
-1,"Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A",E48SC12030NRFH,B1 B2 B3 B4,E48SC12030NRFH,E48SC12030NRFH,4, ,https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf,,13.2,,,Delta Electronics,E48SC12030NRFH,,,,
-2,,PKU5511ESI,B5,PKU5511ESI,CONV_PKU5511ESI,1, ,,,,,,,,H,Flex,9.4 mm,Manufacturer Recommendations
-3,Unpolarized capacitor,C,C4 C6 C7 C8,0.1uF,,4, ,,,,,,,,,,,
-4,Unpolarized capacitor,C,C5 C9 C12 C24 C28 C29 C31 C33 C43 C44 C45 C46,1uF,SOT-23-5_MC_MCH,12, ,,,,,,,,,,,
-5,Unpolarized capacitor,C,C23 C25 C30 C32 C34,100uF,,5, ,,,,,,,,,,,
-6,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2 C3,330uF,,3, ,,,,,,,,,,,
-7,Unpolarized capacitor,C,C27 C35 C36 C37 C38 C39 C40 C41 C42,470uF,,9, ,,,,,,,,,,,
-8,Light emitting diode,LED,D4,BLUE,,1, ,,1=K 2=A,,,,,,,,,
-9,Light emitting diode,LED,D1,GREEN,,1, ,,1=K 2=A,,,,,,,,,
-10,,SMBJ58A-TR,D6,PZU15B3A,SMB_STM,1, ,https://www.st.com/resource/en/datasheet/smbj58ca.pdf,,,,,,,,,,
-11,Light emitting diode,LED,D2,RED,,1, ,,1=K 2=A,,,,,,,,,
-12,Light emitting diode,LED,D5,YELLOW,,1, ,,1=K 2=A,,,,,,,,,
-13,,796636-6,J2,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,,,,
-14,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J3,Conn_01x02_Pin,,1, ,,,,,,,,,,,
-15,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J4 J5,Conn_01x04_Pin,,2, ,,,,,,,,,,,
-16,N-MOSFET transistor,Q_NMOS,Q1,TSM340N06CP_ROG,Nordic_AQFN-94-1EP_7x7mm_P0.4mm,1, ,,,,,,,,,,,
-17,"Resistor, US symbol",R_US,R1 R7,330,,2, ,,,,,,,,,,,
-18,"Resistor, US symbol",R_US,R2,1000,,1, ,,,,,,,,,,,
-19,"Resistor, US symbol",R_US,R4 R5,2.4k,,2, ,,,,,,,,,,,
-20,"Resistor, US symbol",R_US,R3 R9 R10 R14 R15,4.7k,,5, ,,,,,,,,,,,
-21,"Resistor, US symbol",R_US,R11,10K,,1, ,,,,,,,,,,,
-22,"Resistor, US symbol",R_US,R13,15.4K,,1, ,,,,,,,,,,,
-23,"Resistor, US symbol",R_US,R19,23.7K,,1, ,,,,,,,,,,,
-24,"Resistor, US symbol",R_US,R16,36.5K,,1, ,,,,,,,,,,,
-25,"Resistor, US symbol",R_US,R12 R17 R20 R21,54.9K,,4, ,,,,,,,,,,,
-26,"Resistor, US symbol",R_US,R8,100k,,1, ,,,,,,,,,,,
-27,"Resistor, US symbol",R_US,R18,404K,,1, ,,,,,,,,,,,
-28,"Resistor, US symbol",R_US,R6,SR: 0.001,,1, ,,,,,,,,,,,
-29,,INA237AIDGSR,U3,INA237AIDGSR,VSSOP_IDGSR_TEX,1, ,https://www.ti.com/lit/gpn/ina237,,,,,,,,,,
-30,,MIC5504-3.3YM5-TR,U2,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,,,,,,,,
-31,,STM32C542CCT6,U5,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,,,,,,,
-32,,TCAN1044AVDRQ1,U6,TCAN1044AVDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044a-q1,,,,,,,,,,
-33,,TMP1075NDRLR,U4,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,,,,
+1,Unpolarized capacitor,C,C4 C5 C6 C7 C8,0.1uF,,5, ,,,,,,,,,,,
+2,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2 C3,330uF,,3, ,,,,,,,,,,,
+3,Light emitting diode,LED,D4,BLUE,,1, ,,1=K 2=A,,,,,,,,,
+4,Light emitting diode,LED,D1,GREEN,,1, ,,1=K 2=A,,,,,,,,,
+5,,SMBJ58A-TR,D6,PZU15B3A,SMB_STM,1, ,https://www.st.com/resource/en/datasheet/smbj58ca.pdf,,,,,,,,,,
+6,Light emitting diode,LED,D2,RED,,1, ,,1=K 2=A,,,,,,,,,
+7,Light emitting diode,LED,D5,YELLOW,,1, ,,1=K 2=A,,,,,,,,,
+8,,796636-6,J2,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,,,,
+9,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J3,Conn_01x02_Pin,,1, ,,,,,,,,,,,
+10,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J4 J5,Conn_01x04_Pin,,2, ,,,,,,,,,,,
+11,"Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A",E48SC12030NRFH,PS1 PS2 PS3 PS4,E48SC12030NRFH,E48SC12030NRFH,4, ,https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf,,13.2,,,Delta Electronics,E48SC12030NRFH,,,,
+12,N-MOSFET transistor,Q_NMOS,Q1,TSM340N06CP_ROG,Nordic_AQFN-94-1EP_7x7mm_P0.4mm,1, ,,,,,,,,,,,
+13,"Resistor, US symbol",R_US,R1 R7,330,,2, ,,,,,,,,,,,
+14,"Resistor, US symbol",R_US,R2,1000,,1, ,,,,,,,,,,,
+15,"Resistor, US symbol",R_US,R4 R5,2.4k,,2, ,,,,,,,,,,,
+16,"Resistor, US symbol",R_US,R9 R10 R14,4.7k,,3, ,,,,,,,,,,,
+17,"Resistor, US symbol",R_US,R11,10k,E48SC12030NRFH,1, ,,,,,,,,,,,
+18,"Resistor, US symbol",R_US,R12,22k,E48SC12030NRFH,1, ,,,,,,,,,,,
+19,"Resistor, US symbol",R_US,R13,33k,E48SC12030NRFH,1, ,,,,,,,,,,,
+20,"Resistor, US symbol",R_US,R8,100k,,1, ,,,,,,,,,,,
+21,"Resistor, US symbol",R_US,R6,SR: 0.001,,1, ,,,,,,,,,,,
+22,,INA237AIDGSR,U3,INA237AIDGSR,VSSOP_IDGSR_TEX,1, ,https://www.ti.com/lit/gpn/ina237,,,,,,,,,,
+23,,MIC5504-3.3YM5-TR,U2,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,,,,,,,,
+24,,PKU5511ESI,U1,PKU5511ESI,CONV_PKU5511ESI,1, ,,,,,,,,H,Flex,9.4 mm,Manufacturer Recommendations
+25,,STM32C542CCT6,U5,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,,,,,,,
+26,,TCAN1044AVDRQ1,U6,TCAN1044AVDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044a-q1,,,,,,,,,,
+27,,TMP1075NDRLR,U4,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,,,,
 
 
 
@@ -41,11 +35,11 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-09-21_17-06-16
+Date:,2026-09-21_17-42-48
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,33
-Component Count:,74
-Fitted Components:,74
+Component Groups:,27
+Component Count:,41
+Fitted Components:,41
 Number of PCBs:,1
-Total Components:,74
+Total Components:,41
