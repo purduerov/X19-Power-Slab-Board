@@ -433,7 +433,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "R1-15,TP1-5,U1-6,D1-6,C1-8,Q1,#PWR1,J1-5,CR1,PS1-4",
+    "used_designators": "R1-15,TP1-5,U1-6,D1-6,C1-8,Q1,#PWR1-35,J1-5,CR1,PS1-4",
     "variants": []
   },
   "sheets": [
