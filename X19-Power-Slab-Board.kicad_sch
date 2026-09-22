@@ -8235,7 +8235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "680uF"
 			(at 68.58 38.9381 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9281,7 +9281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "680uF"
 			(at 40.64 38.9381 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,7 +10511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "680uF"
 			(at 54.61 38.9381 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "4.7uF"
 			(at 83.82 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
