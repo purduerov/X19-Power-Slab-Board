@@ -535,7 +535,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "CR1,J1-8,Q1,PG1-4,C1-42,C47-48,U1-6,SW1,TP1-5,Y1,Y3,D1-6,#PWR1-95,R1-22,B1-5",
+    "used_designators": "CR1,J1-8,Q1,PG1-4,C1-42,C47-48,U1-10,SW1,TP1-5,Y1,Y3,#PWR1-123,D1-6,R1-32,B1-5",
     "variants": []
   },
   "sheets": [
@@ -550,6 +550,10 @@
     [
       "40111513-3970-440d-907d-e16164745ccd",
       "Power"
+    ],
+    [
+      "bbc862bf-048a-4900-acb1-a8352275c096",
+      "Power Monitoring"
     ]
   ],
   "text_variables": {},
