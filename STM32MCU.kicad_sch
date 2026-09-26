@@ -4341,7 +4341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP48-7X7"
+		(property "Footprint" ""
 			(at 52.07 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.126 144.526 90)
 			(hide yes)
 			(show_name no)
@@ -4793,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.3048 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4872,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.9248 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4951,7 +4951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.4848 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5185,7 +5185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" ""
 			(at 234.95 159.69 0)
 			(hide yes)
 			(show_name no)
@@ -5360,7 +5360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PKU5511ESI:CONV_PKU5511ESI"
+		(property "Footprint" ""
 			(at 85.09 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5655,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" ""
 			(at 234.95 129.21 0)
 			(hide yes)
 			(show_name no)
@@ -5909,7 +5909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.636 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -6143,7 +6143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" ""
 			(at 234.95 192.71 0)
 			(hide yes)
 			(show_name no)
@@ -6318,7 +6318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" ""
 			(at 234.95 225.73 0)
 			(hide yes)
 			(show_name no)
@@ -6723,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.396 78.486 90)
 			(hide yes)
 			(show_name no)
@@ -6802,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E48SC12030NRFH"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.396 111.506 90)
 			(hide yes)
 			(show_name no)

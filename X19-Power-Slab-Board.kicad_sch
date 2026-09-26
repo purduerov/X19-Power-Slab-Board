@@ -6636,7 +6636,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6751,7 +6751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON6_P5MM_VER_TERM-BLK_TYC"
+		(property "Footprint" ""
 			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6845,7 +6845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 203.2 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6910,7 +6910,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6938,7 +6938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 161.29 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7005,7 +7005,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 64.77 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.024 106.934 90)
 			(hide yes)
 			(show_name no)
@@ -7172,7 +7172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VSSOP_IDGSR_TEX"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 27.94 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7252,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7280,7 +7280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 161.29 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7357,7 +7357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.354 106.934 90)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 252.4252 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7596,7 +7596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.286 121.666 90)
 			(hide yes)
 			(show_name no)
@@ -7677,7 +7677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMB_STM"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 133.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7761,7 +7761,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8162,7 +8162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 66.04 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8185,6 +8185,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 66.04 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UVZ2A331MHD1TO"
 			(at 66.04 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.994 132.334 90)
 			(hide yes)
 			(show_name no)
@@ -8380,7 +8391,7 @@
 		(dnp no)
 		(uuid "7e12c332-e689-43cb-aef6-237f59bb51e9")
 		(property "Reference" "R6"
-			(at 76.962 168.402 0)
+			(at 76.454 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8390,8 +8401,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SR: 0.001"
-			(at 70.104 170.942 0)
+		(property "Value" "1mOhm"
+			(at 72.136 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8401,7 +8412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 82.296 171.704 90)
 			(hide yes)
 			(show_name no)
@@ -8434,6 +8445,17 @@
 				)
 			)
 		)
+		(property "Manufacturer_Part_Number" "CSNL1206FT1L00"
+			(at 81.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0706fcf-d9c2-4822-8608-c1255d3ca123")
 		)
@@ -8455,7 +8477,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8773,7 +8795,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8801,7 +8823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 130.81 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8880,7 +8902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8903,6 +8925,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UVZ2A331MHD1TO"
 			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8959,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.354 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -9038,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.864 88.646 90)
 			(hide yes)
 			(show_name no)
@@ -9120,7 +9153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 71.12 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9185,7 +9218,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9213,7 +9246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 130.81 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9369,7 +9402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 53.34 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9459,7 +9492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.864 74.676 90)
 			(hide yes)
 			(show_name no)
@@ -9617,7 +9650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT5X3-6_DRL_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 209.55 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10022,7 +10055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 52.07 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10045,6 +10078,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 52.07 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UVZ2A331MHD1TO"
 			(at 52.07 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10102,7 +10146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A-IPC_A"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 123.19 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10204,7 +10248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10528,7 +10572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10685,7 +10729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 137.16 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10742,7 +10786,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10770,7 +10814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" ""
 			(at 130.81 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10821,7 +10865,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11004,7 +11048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.244 131.064 90)
 			(hide yes)
 			(show_name no)
