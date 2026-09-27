@@ -32,7 +32,10 @@ Starter template for new PCB designs in Purdue ROV. Pre-configured with the team
    git submodule update --init --recursive
    ```
 
-4. Rename the project files (`board-template.kicad_*`) to match your project name.
+4. Prepare the board with `bootstrap.py` (renames starter files, writes the manifest, and installs the validation hook; `LAUNCH_KICAD` runs this automatically):
+   ```bash
+   python bootstrap.py --project-dir . --non-interactive
+   ```
 
 ## Central Component Library & Manager GUI
 
