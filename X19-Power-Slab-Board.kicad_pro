@@ -313,7 +313,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -350,7 +350,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -362,7 +362,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -374,12 +374,36 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         },
         {
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
           "show": false
         },
         {
@@ -392,12 +416,6 @@
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
         },
         {
@@ -414,14 +432,20 @@
         },
         {
           "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
+          "label": "PRICE",
+          "name": "PRICE",
           "show": false
         },
         {
@@ -432,8 +456,14 @@
         },
         {
           "group_by": false,
-          "label": "Height",
-          "name": "Height",
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
           "show": false
         },
         {
@@ -505,7 +535,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "R1-15,TP1-5,U1-6,D1-6,C1-8,Q1,#PWR1-35,J1-5,CR1,PS1-4",
+    "used_designators": "B1-5,R1-32,C1-42,C47-48,U1-10,SW1,D1-6,#PWR1-123,Y1,Y3,TP1-5,Q1,PG1-4,J1-8,CR1",
     "variants": []
   },
   "sheets": [
@@ -515,7 +545,15 @@
     ],
     [
       "9cedee09-c06b-48cb-af3a-8d02fe17e5cc",
-      "STM32 MCU and Power Bricks"
+      "MCU"
+    ],
+    [
+      "40111513-3970-440d-907d-e16164745ccd",
+      "Power"
+    ],
+    [
+      "bbc862bf-048a-4900-acb1-a8352275c096",
+      "Power Monitoring"
     ]
   ],
   "text_variables": {},
