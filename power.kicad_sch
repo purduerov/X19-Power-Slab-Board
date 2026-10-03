@@ -3330,7 +3330,7 @@
 			)
 		)
 	)
-	(global_label "SMBALERT"
+	(global_label "SMBALERT_B3"
 		(shape input)
 		(at 242.57 77.47 0)
 		(fields_autoplaced yes)
@@ -3342,7 +3342,7 @@
 		)
 		(uuid "149c3a1d-3203-4dae-a804-eba8331d754a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.9894 77.47 0)
+			(at 258.4365 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +3498,7 @@
 			)
 		)
 	)
-	(global_label "SMBALERT"
+	(global_label "SMBALERT_B5"
 		(shape input)
 		(at 242.57 143.51 0)
 		(fields_autoplaced yes)
@@ -3510,7 +3510,7 @@
 		)
 		(uuid "4b8d4372-7f42-4e46-a474-6cc0ce4caff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.9894 143.51 0)
+			(at 258.4365 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +3642,7 @@
 			)
 		)
 	)
-	(global_label "SMBALERT"
+	(global_label "SMBALERT_B4"
 		(shape input)
 		(at 242.57 110.49 0)
 		(fields_autoplaced yes)
@@ -3654,7 +3654,7 @@
 		)
 		(uuid "7cd68931-0726-4325-80ee-065ad67630c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.9894 110.49 0)
+			(at 258.4365 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4002,7 @@
 			)
 		)
 	)
-	(global_label "SMBALERT"
+	(global_label "SMBALERT_B2"
 		(shape input)
 		(at 242.57 46.99 0)
 		(fields_autoplaced yes)
@@ -4014,7 +4014,7 @@
 		)
 		(uuid "e2956062-1491-499f-8089-a164ba624193")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.9894 46.99 0)
+			(at 258.4365 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Value" "404K"
+		(property "Value" "787K"
 			(at 52.07 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
