@@ -23,14 +23,14 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 22,"Resistor, US symbol",R_US,R1 R4,330,,2, ,,,,,,,,,,,,,,,,
 23,"Resistor, US symbol",R_US,R3,1000,,1, ,,,,,,,,,,,,,,,,
 24,"Resistor, US symbol",R_US,R5 R6,2.4k,,2, ,,,,,,,,,,,,,,,,
-25,"Resistor, US symbol",R_US,R7 R8 R10 R11 R13 R23 R25 R28 R29,4.7K,,9, ,,,,,,,,,,,,,,,,
+25,"Resistor, US symbol",R_US,R7 R8 R10 R11 R13 R23 R25 R27 R28 R29 R30 R33,4.7K,,12, ,,,,,,,,,,,,,,,,
 26,"Resistor, US symbol",R_US,R12 R15,10k,R_Array_SIP4,2, ,,,,,,,,,,,,,,,,
 27,"Resistor, US symbol",R_US,R16,15.4K,,1, ,,,,,,,,,,,,,,,,
 28,"Resistor, US symbol",R_US,R17,23.7K,,1, ,,,,,,,,,,,,,,,,
 29,"Resistor, US symbol",R_US,R18,36.5K,,1, ,,,,,,,,,,,,,,,,
 30,"Resistor, US symbol",R_US,R19 R20 R21 R22,54.9K,,4, ,,,,,,,,,,,,,,,,
 31,"Resistor, US symbol",R_US,R2,100k,,1, ,,,,,,,,,,,,,,,,
-32,"Resistor, US symbol",R_US,R14,404K,,1, ,,,,,,,,,,,,,,,,
+32,"Resistor, US symbol",R_US,R14,787K,,1, ,,,,,,,,,,,,,,,,
 33,"Resistor, US symbol",R_US,R9 R24 R26 R31 R32,SR: 0.001,,5, ,,,,,,,,,,,,,,,,
 34,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_NKK_GW12LJP,1, ,,,,,,,,,,,,,,,,
 35,,INA237AIDGSR,U2 U6 U7 U9 U10,INA237AIDGSR,VSSOP_IDGSR_TEX,5, ,https://www.ti.com/lit/gpn/ina237,,,,,,,,,,,,,,,
@@ -48,11 +48,11 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-10-03_17-55-10
+Date:,2026-10-03_18-39-44
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,40
-Component Count:,98
-Fitted Components:,98
+Component Count:,101
+Fitted Components:,101
 Number of PCBs:,1
-Total Components:,98
+Total Components:,101
