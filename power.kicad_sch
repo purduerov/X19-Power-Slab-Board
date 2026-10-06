@@ -2446,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 139.7) (xy 30.48 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8a498d-541e-43b8-9d08-85c68798540d")
+	)
+	(wire
+		(pts
 			(xy 237.49 135.89) (xy 240.03 135.89)
 		)
 		(stroke
@@ -3268,7 +3278,7 @@
 			)
 		)
 	)
-	(global_label "48V_GND"
+	(global_label "48V_RETURN"
 		(shape input)
 		(at 196.85 72.39 180)
 		(fields_autoplaced yes)
@@ -3280,7 +3290,7 @@
 		)
 		(uuid "02bf9dcb-45d8-47d4-b054-7a3a0e245747")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5191 72.39 0)
+			(at 182.072 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3364,7 +3374,7 @@
 			)
 		)
 	)
-	(global_label "48V_GND"
+	(global_label "48V_RETURN"
 		(shape input)
 		(at 196.85 105.41 180)
 		(fields_autoplaced yes)
@@ -3376,7 +3386,7 @@
 		)
 		(uuid "34eee323-392f-4889-b19d-7e5ada900652")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5191 105.41 0)
+			(at 182.072 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3436,7 +3446,7 @@
 			)
 		)
 	)
-	(global_label "48V_GND"
+	(global_label "48V_RETURN"
 		(shape input)
 		(at 30.48 148.59 180)
 		(fields_autoplaced yes)
@@ -3448,7 +3458,7 @@
 		)
 		(uuid "42ebdd54-a8de-4b3b-be21-0310c1914ca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.1491 148.59 0)
+			(at 15.702 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +3518,7 @@
 			)
 		)
 	)
-	(global_label "48V_GND"
+	(global_label "48V_RETURN"
 		(shape input)
 		(at 196.85 41.91 180)
 		(fields_autoplaced yes)
@@ -3520,31 +3530,7 @@
 		)
 		(uuid "4e86a540-f6ea-4fd3-a83f-3a0435424ce1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5191 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "48V"
-		(shape input)
-		(at 30.48 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fa45d98-76fa-4c9f-9d20-922bba3d5fe6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.9872 146.05 0)
+			(at 182.072 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3806,7 @@
 			)
 		)
 	)
-	(global_label "48V_GND"
+	(global_label "48V_RETURN"
 		(shape input)
 		(at 196.85 138.43 180)
 		(fields_autoplaced yes)
@@ -3832,7 +3818,7 @@
 		)
 		(uuid "c5ab02d7-06b3-412b-b273-1abe2c4b1a06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5191 138.43 0)
+			(at 182.072 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +4525,7 @@
 				)
 			)
 		)
-		(property "Value" "+5.1V_UNFILT"
+		(property "Value" "+5.1V_RAW"
 			(at 62.23 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +5248,7 @@
 				)
 			)
 		)
-		(property "Value" "48V_GND"
+		(property "Value" "48V_RETURN"
 			(at 119.38 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,6 +8277,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 30.48 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab5d7bc2-52e3-4410-934e-308078b71a4d")
+		(property "Reference" "#PWR0127"
+			(at 30.48 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 30.48 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 30.48 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89426f58-3cbc-408b-9e71-d6e4a1552450")
+		)
+		(instances
+			(project "X19-Power-Slab-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PKU5511ESI:PKU5511ESI")
 		(at 52.07 151.13 0)
 		(unit 1)
@@ -9580,7 +9643,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce8fedc1-4bfa-4da9-a18b-6ae90f60a5d1")
 		(property "Reference" "#PWR059"
 			(at 22.86 194.31 0)
@@ -9593,14 +9655,15 @@
 				)
 			)
 		)
-		(property "Value" "48V_GND"
-			(at 22.86 193.04 0)
+		(property "Value" "48V_RETURN"
+			(at 17.78 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10862,7 +10925,7 @@
 				)
 			)
 		)
-		(property "Value" "48V_GND"
+		(property "Value" "48V_RETURN"
 			(at 119.38 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
