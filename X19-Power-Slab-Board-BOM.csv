@@ -1,44 +1,48 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Pins,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name,Manufacturer_Part_Number,PARTREV,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,STANDARD,MF,PACKAGE,PRICE,MP,AVAILABILITY
-1,"Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A",E48SC12030NRFH,B2 B3 B4 B5,E48SC12030NRFH,E48SC12030NRFH,4, ,https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf,,13.2,,,Delta Electronics,E48SC12030NRFH,,,,,,,,,
-2,,PKU5511ESI,B1,PKU5511ESI,CONV_PKU5511ESI,1, ,,,,,,,,H,Flex,9.4 mm,Manufacturer Recommendations,,,,,
+1,"Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A",E48SC12030NRFH,B1 B2 B3 B4,E48SC12030NRFH,E48SC12030NRFH,4, ,https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf,,13.2,,,Delta Electronics,E48SC12030NRFH,,,,,,,,,
+2,,PKU5511ESI,B5,PKU5511ESI,CONV_PKU5511ESI,1, ,,,,,,,,H,Flex,9.4 mm,Manufacturer Recommendations,,,,,
 3,Unpolarized capacitor,C,C6 C12,27pF,,2, ,,,,,,,,,,,,,,,,
-4,Unpolarized capacitor,C,C5 C7 C8 C9 C11,0.1u,,5, ,,,,,,,,,,,,,,,,
+4,Unpolarized capacitor,C,C5 C7 C8 C9 C11 C40 C41 C42 C43 C44,0.1u,,10, ,,,,,,,,,,,,,,,,
 5,Unpolarized capacitor,C,C15 C16 C17 C19 C21 C24 C25 C29 C30 C31 C35 C36,1uF,SOT-23-5_MC_MCH,12, ,,,,,,,,,,,,,,,,
 6,Unpolarized capacitor,C,C13,2.2u,,1, ,,,,,,,,,,,,,,,,
 7,Unpolarized capacitor,C,C4 C10,4.7uF,,2, ,,,,,,,,,,,,,,,,
 8,Unpolarized capacitor,C,C14 C20 C28 C32 C37,100uF,,5, ,,,,,,,,,,,,,,,,
 9,Unpolarized capacitor,C,C18 C22 C23 C26 C27 C33 C34 C38 C39,470uF,,9, ,,,,,,,,,,,,,,,,
-10,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2 C3,680uF,,3, ,,,,,,,,,,,,,,,,
+10,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C2 C3,470uF,,2, ,,,,,,,,,,,,,,,,
 11,Light emitting diode,LED,D5,BLUE,,1, ,,1=K 2=A,,,,,,,,,,,,,,
 12,Light emitting diode,LED,D1,GREEN,,1, ,,1=K 2=A,,,,,,,,,,,,,,
-13,,SMBJ58A-TR,D2,PZU15B3A,SMB_STM,1, ,https://www.st.com/resource/en/datasheet/smbj58ca.pdf,,,,,,,,,,,,,,,
-14,Light emitting diode,LED,D3,RED,,1, ,,1=K 2=A,,,,,,,,,,,,,,
-15,Light emitting diode,LED,D4,YELLOW,,1, ,,1=K 2=A,,,,,,,,,,,,,,
-16,,796636-6,J4,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,,,,,,,,,
-17,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J2,Conn_01x02_Pin,,1, ,,,,,,,,,,,,,,,,
-18,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J1 J3,Conn_01x04_Pin,,2, ,,,,,,,,,,,,,,,,
-19,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J5 J6,Conn_01x05,,2, ,,,,,,,,,,,,,,,,
-20,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J7,Conn_02x05_Odd_Even,Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm,1, ,,,,,,,,,,,,,,,,
-21,N-MOSFET transistor,Q_NMOS,Q1,TSM340N06CP_ROG,Nordic_AQFN-94-1EP_7x7mm_P0.4mm,1, ,,,,,,,,,,,,,,,,
-22,"Resistor, US symbol",R_US,R1 R4,330,,2, ,,,,,,,,,,,,,,,,
-23,"Resistor, US symbol",R_US,R3,1000,,1, ,,,,,,,,,,,,,,,,
-24,"Resistor, US symbol",R_US,R5 R6,2.4k,,2, ,,,,,,,,,,,,,,,,
-25,"Resistor, US symbol",R_US,R7 R8 R10 R11 R13 R23 R25 R27 R28 R29 R30 R33,4.7K,,12, ,,,,,,,,,,,,,,,,
-26,"Resistor, US symbol",R_US,R12 R15,10k,R_Array_SIP4,2, ,,,,,,,,,,,,,,,,
-27,"Resistor, US symbol",R_US,R16,15.4K,,1, ,,,,,,,,,,,,,,,,
-28,"Resistor, US symbol",R_US,R17,23.7K,,1, ,,,,,,,,,,,,,,,,
-29,"Resistor, US symbol",R_US,R18,36.5K,,1, ,,,,,,,,,,,,,,,,
-30,"Resistor, US symbol",R_US,R19 R20 R21 R22,54.9K,,4, ,,,,,,,,,,,,,,,,
-31,"Resistor, US symbol",R_US,R2,100k,,1, ,,,,,,,,,,,,,,,,
-32,"Resistor, US symbol",R_US,R14,787K,,1, ,,,,,,,,,,,,,,,,
-33,"Resistor, US symbol",R_US,R9 R24 R26 R31 R32,SR: 0.001,,5, ,,,,,,,,,,,,,,,,
-34,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_NKK_GW12LJP,1, ,,,,,,,,,,,,,,,,
-35,,INA237AIDGSR,U2 U6 U7 U9 U10,INA237AIDGSR,VSSOP_IDGSR_TEX,5, ,https://www.ti.com/lit/gpn/ina237,,,,,,,,,,,,,,,
-36,,MIC5504-3.3YM5-TR,U5,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,,,,,,,,,,,,,
-37,,STM32C542CCT6,U4,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,,,,,,,,,,,,
-38,,TCAN1044AVDRQ1,U1,TCAN1044AVDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044a-q1,,,,,,,,,,,,,,,
-39,,TMP1075NDRLR,U3,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,,,,,,,,,
-40,The sub miniature ECX-32 is a compact SMD Crystal.,ECS-120-18-33-JGN-TR,Y1,ECS-120-18-33-JGN-TR,XTAL_ECS-120-18-33-JGN-TR,1, ,,,,,,,,,,,Manufacturer recommendations,ECS INC,SMD-4 ECX,,ECX-32,Good
+13,Light emitting diode,LED,D6,LED,,1, ,,1=K 2=A,,,,,,,,,,,,,,
+14,,SMBJ58A-TR,D2,PZU15B3A,SMB_STM,1, ,https://www.st.com/resource/en/datasheet/smbj58ca.pdf,,,,,,,,,,,,,,,
+15,Light emitting diode,LED,D3,RED,,1, ,,1=K 2=A,,,,,,,,,,,,,,
+16,Light emitting diode,LED,D4,YELLOW,,1, ,,1=K 2=A,,,,,,,,,,,,,,
+17,,796636-6,J4,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,,,,,,,,,
+18,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J8 J10 J11 J12 J13 J14 J15 J16,Conn_01x02,,8, ,,,,,,,,,,,,,,,,
+19,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J2,Conn_01x02_Pin,,1, ,,,,,,,,,,,,,,,,
+20,"Generic connector, single row, 01x03, script generated",Conn_01x03_Pin,J9,Conn_01x03_Pin,,1, ,,,,,,,,,,,,,,,,
+21,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J1 J3,Conn_01x04_Pin,,2, ,,,,,,,,,,,,,,,,
+22,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J5 J6,Conn_01x05,,2, ,,,,,,,,,,,,,,,,
+23,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J7,Conn_02x05_Odd_Even,Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm,1, ,,,,,,,,,,,,,,,,
+24,N-MOSFET transistor,Q_NMOS,Q1,TSM340N06CP_ROG,Nordic_AQFN-94-1EP_7x7mm_P0.4mm,1, ,,,,,,,,,,,,,,,,
+25,"Resistor, US symbol",R_US,R1 R4,330,,2, ,,,,,,,,,,,,,,,,
+26,"Resistor, US symbol",R_US,R3,1000,,1, ,,,,,,,,,,,,,,,,
+27,"Resistor, US symbol",R_US,R5 R6,2.4k,,2, ,,,,,,,,,,,,,,,,
+28,"Resistor, US symbol",R_US,R7 R8 R10 R11 R13 R23 R27 R30 R33,4.7K,,9, ,,,,,,,,,,,,,,,,
+29,"Resistor, US symbol",R_US,R12 R15,10k,R_Array_SIP4,2, ,,,,,,,,,,,,,,,,
+30,"Resistor, US symbol",R_US,R16,15.4K,,1, ,,,,,,,,,,,,,,,,
+31,"Resistor, US symbol",R_US,R17,23.7K,,1, ,,,,,,,,,,,,,,,,
+32,"Resistor, US symbol",R_US,R18,36.5K,,1, ,,,,,,,,,,,,,,,,
+33,"Resistor, US symbol",R_US,R19 R20 R21 R22,54.9K,,4, ,,,,,,,,,,,,,,,,
+34,"Resistor, US symbol",R_US,R2,100k,,1, ,,,,,,,,,,,,,,,,
+35,"Resistor, US symbol",R_US,R14,787K,,1, ,,,,,,,,,,,,,,,,
+36,"Resistor, US symbol",R_US,R25,R_US,,1, ,,,,,,,,,,,,,,,,
+37,"Resistor, US symbol",R_US,R9 R24,SR: 0.001,,2, ,,,,,,,,,,,,,,,,
+38,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_NKK_GW12LJP,1, ,,,,,,,,,,,,,,,,
+39,,INA237AIDGSR,U2 U6,INA237AIDGSR,VSSOP_IDGSR_TEX,2, ,https://www.ti.com/lit/gpn/ina237,,,,,,,,,,,,,,,
+40,,MIC5504-3.3YM5-TR,U5,MIC5504-3.3YM5-TR,SOT-23-5_MC_MCH,1, ,MIC5504-3.3YM5-TR,,,,,,,,,,,,,,,
+41,,STM32C542CCT6,U4,STM32C542CCT6,LQFP48-7X7,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,,,,,,,,,,,,
+42,,TCAN1044AVDRQ1,U1,TCAN1044AVDRQ1,D0008A-IPC_A,1, ,https://www.ti.com/lit/gpn/tcan1044a-q1,,,,,,,,,,,,,,,
+43,,TMP1075NDRLR,U3,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,,,,,,,,,
+44,The sub miniature ECX-32 is a compact SMD Crystal.,ECS-120-18-33-JGN-TR,Y1,ECS-120-18-33-JGN-TR,XTAL_ECS-120-18-33-JGN-TR,1, ,,,,,,,,,,,Manufacturer recommendations,ECS INC,SMD-4 ECX,,ECX-32,Good
 
 
 
@@ -48,11 +52,11 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-10-03_18-39-44
+Date:,2026-10-06_05-43-47
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,40
-Component Count:,101
-Fitted Components:,101
+Component Groups:,44
+Component Count:,107
+Fitted Components:,107
 Number of PCBs:,1
-Total Components:,101
+Total Components:,107
