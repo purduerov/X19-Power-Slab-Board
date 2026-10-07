@@ -535,7 +535,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "5.1V1,B1-5,R1-33,PS1,48V1,C1-44,C47-48,U1-10,SW1,3.3V1,#PWR1-132,D1-6,GND1,Y1,Y3,TP1-7,PG1-4,Q1,CR1-2,12V1,J1-20",
+    "used_designators": "5.1V1,B1-5,PS1,48V1,R1-33,C1-44,C47-48,U1-10,SW1,3.3V1,#PWR1-132,D1-6,GND1,Y1,Y3,TP1-7,CR1-2,12V1,PG1-4,Q1,J1-20",
     "variants": []
   },
   "sheets": [

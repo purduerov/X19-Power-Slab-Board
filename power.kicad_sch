@@ -1826,6 +1826,17 @@
 		)
 		(uuid "1f809c3a-f417-4aa5-b2b1-c852552960d4")
 	)
+	(text "CHECK CAPACITORS \nCHECK DATASHEET OF I6A\nTO SEE WHAT MINIMUM OUPTUT"
+		(exclude_from_sim no)
+		(at 53.34 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 37 1 1)
+			)
+		)
+		(uuid "2130b8e4-9871-41d1-a6f1-2151c6b18f41")
+	)
 	(text "360W Bricks 48V - 12V (4x)"
 		(exclude_from_sim no)
 		(at 190.5 22.606 0)
@@ -1960,7 +1971,7 @@
 	)
 	(text "Low ESR 25V \n(12V_B#, GND)"
 		(exclude_from_sim no)
-		(at 105.41 80.01 0)
+		(at 105.41 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1989,6 +2000,17 @@
 			)
 		)
 		(uuid "c0a59f4b-399d-460f-b34d-6852391f86c6")
+	)
+	(text "BRICK SHOULD BE THIS\nI6A4W020A033V-003-R"
+		(exclude_from_sim no)
+		(at 52.07 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 28 1)
+			)
+		)
+		(uuid "c90f3c03-fbc6-4277-9ab9-3001d8117064")
 	)
 	(text "Resistor Values chosen \nin datasheet pg.15\nUSE 1% TOLERANCE RESISTORS\n\nSMBALERT pull up is on MCU sheet\nopen-drain, wired-AND shared alert line"
 		(exclude_from_sim no)
@@ -2031,6 +2053,17 @@
 			)
 		)
 		(uuid "e6ae6cbb-fbd4-472d-94e2-c576a3952c04")
+	)
+	(text "Can drop down to 63V,\nideally would be 100V\nkeep 63V if its too big"
+		(exclude_from_sim no)
+		(at 147.32 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 23 1)
+			)
+		)
+		(uuid "e74af5fa-0fbc-4fb3-b57c-5606be3dc957")
 	)
 	(text "I2C Address: \n0x23 (Hex)"
 		(exclude_from_sim no)

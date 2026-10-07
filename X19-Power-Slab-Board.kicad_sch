@@ -4502,6 +4502,17 @@
 		)
 		(uuid "12c2a99c-085d-4596-a2c5-608033d46b0e")
 	)
+	(text "100V Rated\nElectrolytic\n"
+		(exclude_from_sim no)
+		(at 83.82 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 43 0 1)
+			)
+		)
+		(uuid "144ee5ae-0ddc-407c-adb8-d8ea744266bc")
+	)
 	(text "XT60 ESC Power"
 		(exclude_from_sim no)
 		(at 254 57.15 0)
@@ -4607,6 +4618,17 @@
 		)
 		(uuid "9cdc85ee-fdd7-42da-9cb0-318554680f87")
 	)
+	(text "~10mA thru each LED\naccount for LED forward voltage drop"
+		(exclude_from_sim no)
+		(at 36.83 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "a3dd0627-2d1f-4653-b8aa-b3f520d0cbf7")
+	)
 	(text "CAN ESD Protection"
 		(exclude_from_sim no)
 		(at 129.54 68.58 0)
@@ -4636,6 +4658,19 @@
 			)
 		)
 		(uuid "b0cd58e8-3f34-4013-a7ff-65055468149c")
+	)
+	(text "CHANGES\n1. find and implemeent footprint for 16MHz\n2. any non power capacitors --> 0805 (default kicad)\n3. LED resistor size\n4. Find capacitors for bulk power stuff\n5. change brick to I6A"
+		(exclude_from_sim no)
+		(at 220.98 147.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 13 0 1)
+			)
+		)
+		(uuid "b1eb54ad-4028-46d1-858f-810952a0d5a9")
 	)
 	(text "[WARNING]!\n\nALWAYS PLUG TETHER IN FIRST\nBEFORE POWERING ON\n\nNo inrush / precharge is implemented"
 		(exclude_from_sim no)

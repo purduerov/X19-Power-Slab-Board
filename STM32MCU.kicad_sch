@@ -2668,6 +2668,17 @@
 		)
 		(uuid "3f8af44f-000e-4aea-8262-4e682d56faac")
 	)
+	(text "Change to 16MHz osillator \n\nchange capacitances to what is nededed check datasheet\n\n- Nick"
+		(exclude_from_sim no)
+		(at 222.25 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 13 1)
+			)
+		)
+		(uuid "5d043ef1-153f-4fc9-9e5f-ebed23e9d74c")
+	)
 	(text "Debugging / Programming Header"
 		(exclude_from_sim no)
 		(at 201.93 64.77 0)
