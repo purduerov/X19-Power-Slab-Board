@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "IRS510Q12PC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "IRS510Q12PC")
+        (spec "default")
+    )
+)

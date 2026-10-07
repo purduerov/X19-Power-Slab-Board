@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IRS-5_10-Q12P-C
+#/1958137/1774879/2.50/8/4/Power Supply
+DEF IRS-5_10-Q12P-C PS 0 30 Y Y 1 F N
+F0 "PS" 1350 300 50 H V L CNN
+F1 "IRS-5_10-Q12P-C" 1350 200 50 H V L CNN
+F2 "IRS510Q12PC" 1350 100 50 H I L CNN
+F3 "https://www.mouser.ph/ProductDetail/Murata-Power-Solutions/IRS-5-10-Q12P-C?qs=PqoDHHvF64%2FRMwDquUqfvQ%3D%3D" 1350 0 50 H I L CNN
+F4 "Isolated DC/DC Converters 5V/10A 9-36Vin 1/16 brick +Log BP" 1350 -100 50 H I L CNN "Description"
+F5 "" 1350 -200 50 H I L CNN "Height"
+F6 "580-IRS-5/10-Q12P-C" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/IRS-5-10-Q12P-C?qs=PqoDHHvF64%2FRMwDquUqfvQ%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IRS-5/10-Q12P-C" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X REM_ON/OFF 2 0 -100 200 R 50 50 0 0 P
+X -VIN 3 0 -200 200 R 50 50 0 0 P
+X -VOUT 4 1500 -400 200 L 50 50 0 0 P
+X -SENSE 5 1500 -300 200 L 50 50 0 0 P
+X TRIM 6 1500 -200 200 L 50 50 0 0 P
+X +SENSE 7 1500 -100 200 L 50 50 0 0 P
+X +VOUT 8 1500 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

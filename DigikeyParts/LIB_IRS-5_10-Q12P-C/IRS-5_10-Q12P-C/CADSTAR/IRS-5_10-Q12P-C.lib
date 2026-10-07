@@ -1,0 +1,16 @@
+.IRS-5_10-Q12P-C :1 ;Isolated DC/DC Converters 5V/10A 9-36Vin 1/16 brick +Log BP
+IRS510Q12PC
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="REM ON/OFF" 3="-VIN" 4="-VOUT" 5="-SENSE" 6="TRIM" 7="+SENSE" 8="+VOUT"
+*MXP 8
+*DFN IRS-5_10-Q12P-C
+~!Mouser Part Number (580-IRS-5/10-Q12P-C)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/IRS-5-10-Q12P-C?qs=PqoDHHvF64%2FRMwDquUqfvQ%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (IRS-5/10-Q12P-C)
+~!Link Datasheet (https://www.mouser.ph/ProductDetail/Murata-Power-Solutions/IRS-5-10-Q12P-C?qs=PqoDHHvF64%2FRMwDquUqfvQ%3D%3D)
+~!Height (-)
+~!3D_Model (IRS-5_10-Q12P-C)
+IRS-5_10-Q12P-C
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

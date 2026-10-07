@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=IRS-5/10-Q12P-C
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=8
+Version=2.3
+Released=2020-02-16 02:12:14
+Downloaded=2026-10-07 16:00:25
+3D=Y
