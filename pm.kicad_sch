@@ -1562,7 +1562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VSSOP_IDGSR_TEX"
+		(property "Footprint" "rov_sensors:VSSOP_IDGSR_TEX"
 			(at 119.38 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2221,7 +2221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VSSOP_IDGSR_TEX"
+		(property "Footprint" "rov_sensors:VSSOP_IDGSR_TEX"
 			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)

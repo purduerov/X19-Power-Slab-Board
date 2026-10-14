@@ -6484,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON6_P5MM_VER_TERM-BLK_TYC"
+		(property "Footprint" "rov_connectors:CON6_P5MM_VER_TERM-BLK_TYC"
 			(at 35.56 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8069,7 +8069,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "300"
 			(at 26.67 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +8218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4123abdd-afb6-421a-b7a5-32883a1a3853")
-		(property "Reference" "3.3V"
+		(property "Reference" "D3"
 			(at 57.15 137.4774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,7 +8293,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "3.3V")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9166,6 +9166,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ef59f4-5b5e-4356-b454-e09f07b9d222")
+		(property "Reference" "D1"
+			(at 43.18 137.4774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 43.18 140.0174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "i6A4W_DIP_FULL_TDK"
+			(at 39.37 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 39.37 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "028b6a85-a7ae-443b-a2da-08f36e98191d")
+		)
+		(pin "1"
+			(uuid "7419be2e-d674-45f6-9900-b5d6b0f1eed3")
+		)
+		(instances
+			(project "X19-Power-Slab-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 73.66 92.71 90)
 		(unit 1)
@@ -9824,7 +9917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "120"
 			(at 55.88 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10622,7 @@
 				)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2.2k"
 			(at 71.12 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10740,99 +10833,6 @@
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 39.37 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "986b3ae2-e4d9-4d45-af33-6e81bc71ec64")
-		(property "Reference" "12V"
-			(at 43.18 137.4774 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 43.18 140.0174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 39.37 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e905ca2-9ea7-4d00-a31a-aafe542c8d02")
-		)
-		(pin "2"
-			(uuid "186c7b0b-7ba2-4c8a-8031-b31919fa0351")
-		)
-		(instances
-			(project "X19-Power-Slab-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "12V")
 					(unit 1)
 				)
 			)
@@ -11243,7 +11243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a1c32a-e035-4e05-aa73-d66441a7cef0")
-		(property "Reference" "48V"
+		(property "Reference" "D4"
 			(at 71.12 145.0974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,7 +11318,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "48V")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11619,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT5X3-6_DRL_TEX"
+		(property "Footprint" "rov_sensors:SOT5X3-6_DRL_TEX"
 			(at 215.9 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12276,7 +12276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A-IPC_A"
+		(property "Footprint" "rov_logic:D0008A-IPC_A"
 			(at 104.14 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12433,7 +12433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5066c5f-0cfd-4765-86cb-dd5248fc5720")
-		(property "Reference" "5.1V"
+		(property "Reference" "D5"
 			(at 27.94 137.4774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12508,7 +12508,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "5.1V")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13407,7 +13407,7 @@
 				)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2.2k"
 			(at 71.12 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
