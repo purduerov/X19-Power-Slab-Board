@@ -2816,7 +2816,7 @@
 		)
 		(uuid "66d9935e-13f7-4b48-abae-3d8b38c19f5b")
 	)
-	(text "STM 40MHz Oscillator"
+	(text "STM 16MHz Oscillator"
 		(exclude_from_sim no)
 		(at 187.96 104.14 0)
 		(effects

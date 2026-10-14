@@ -1870,16 +1870,6 @@
 		)
 		(uuid "d886241c-723f-44ae-8727-5596ae679695")
 	)
-	(text "Datasheet specifies\n>330uF output capacitance\nbetween OUT+, OUT-"
-		(exclude_from_sim no)
-		(at 80.01 124.46 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "1f40da67-ffa0-46c7-b055-688fb704564f")
-	)
 	(text "3.3V LDO"
 		(exclude_from_sim no)
 		(at 19.558 22.86 0)
@@ -1911,16 +1901,6 @@
 		)
 		(uuid "36b8e6ce-7112-45bb-8959-52ea83d46dfd")
 	)
-	(text "Low ESR Input\n100V Rated"
-		(exclude_from_sim no)
-		(at 22.86 119.38 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "3d9c4cda-f122-4012-a237-35ebb6d9fce2")
-	)
 	(text "Brick Passives"
 		(exclude_from_sim no)
 		(at 104.14 22.86 0)
@@ -1931,7 +1911,7 @@
 		)
 		(uuid "4072e52b-0829-4d0a-a0ff-b1e3a5aa0472")
 	)
-	(text "Low ESR 100V \n(VIN+/VIN-)"
+	(text "Low ESR 63V \n(VIN+/VIN-)"
 		(exclude_from_sim no)
 		(at 106.68 53.34 0)
 		(effects
@@ -1991,7 +1971,7 @@
 		)
 		(uuid "7f66bbe7-9515-4f9b-a27b-811b72bf5cae")
 	)
-	(text "Low ESR 100V\nElectrolytic \n(VIN+/VIN-)"
+	(text "Low ESR 63V\nElectrolytic \n(VIN+/VIN-)"
 		(exclude_from_sim no)
 		(at 106.68 34.29 0)
 		(effects
@@ -2010,6 +1990,17 @@
 			)
 		)
 		(uuid "8674d4de-c2a8-4d2f-8d05-e06781269fd2")
+	)
+	(text "63V 1206 caps"
+		(exclude_from_sim no)
+		(at 165.1 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 23 1)
+			)
+		)
+		(uuid "a3edf5cf-301f-474e-b7fa-ac1c1017cfd2")
 	)
 	(text "I2C Address: \n0x20 (Hex)"
 		(exclude_from_sim no)
@@ -2043,16 +2034,6 @@
 		)
 		(uuid "b9810895-8580-4fc2-af46-284ef71e0841")
 	)
-	(text "10V X7R"
-		(exclude_from_sim no)
-		(at 67.31 119.38 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "c020f04f-d668-4c5d-a293-8c4bef18cb67")
-	)
 	(text "INPUT"
 		(exclude_from_sim no)
 		(at 102.87 27.94 0)
@@ -2064,6 +2045,17 @@
 			)
 		)
 		(uuid "c0a59f4b-399d-460f-b34d-6852391f86c6")
+	)
+	(text "25V for right\n63V for left\n22uF 1206, 0603 for <1uF, custom for 100\n"
+		(exclude_from_sim no)
+		(at 47.244 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 28 1)
+			)
+		)
+		(uuid "c778fb4e-a4f9-40b3-8959-731c3610ef68")
 	)
 	(text "BRICK SHOULD BE THIS\nI6A4W020A033V-003-R"
 		(exclude_from_sim no)
@@ -2098,16 +2090,6 @@
 		)
 		(uuid "d15f637b-9386-4067-8ffe-1647b99079f4")
 	)
-	(text "R value\nFrom Datasheet pg. 36"
-		(exclude_from_sim no)
-		(at 52.578 132.842 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "d6e9e939-fa66-4e44-bb5c-734be62172c5")
-	)
 	(text "I2C Address: \n0x22 (Hex)"
 		(exclude_from_sim no)
 		(at 269.24 110.49 0)
@@ -2118,7 +2100,7 @@
 		)
 		(uuid "e6ae6cbb-fbd4-472d-94e2-c576a3952c04")
 	)
-	(text "Can drop down to 63V,\nideally would be 100V\nkeep 63V if its too big"
+	(text "Can drop down to 63V,\nideally would be 100V\nkeep 63V if its too big\n(USE 63V)\n"
 		(exclude_from_sim no)
 		(at 147.32 44.45 0)
 		(effects
@@ -2138,16 +2120,6 @@
 			)
 		)
 		(uuid "e76a8008-15bf-42c2-afb5-7a2091cb32a8")
-	)
-	(text "100V X7R"
-		(exclude_from_sim no)
-		(at 35.56 125.73 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "ea88217f-9ddb-4f59-88c5-70e6247c1b63")
 	)
 	(junction
 		(at 149.86 77.47)
