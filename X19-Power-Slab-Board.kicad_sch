@@ -6408,7 +6408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 49.53 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -6668,7 +6668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 186.9948 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6983,7 +6983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7143,7 +7143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 38.354 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -7222,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 48.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7696,7 +7696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 275.8948 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7855,7 +7855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7937,7 +7937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 23.114 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 53.34 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8341,7 +8341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.75 38.4048 0)
 			(hide yes)
 			(show_name no)
@@ -8500,7 +8500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 31.75 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8585,7 +8585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8819,7 +8819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9056,7 +9056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "i6A4W_DIP_FULL_TDK"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 39.37 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9304,7 +9304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.066 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -9703,7 +9703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 214.884 26.924 90)
 			(hide yes)
 			(show_name no)
@@ -9785,7 +9785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 52.324 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -10410,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10728,7 +10728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.066 43.434 90)
 			(hide yes)
 			(show_name no)
@@ -10887,7 +10887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11120,7 +11120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11200,7 +11200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 78.74 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11479,7 +11479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.0248 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11640,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11722,7 +11722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12140,7 +12140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 24.13 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12314,7 +12314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12551,7 +12551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 68.2752 40.64 0)
 			(hide yes)
 			(show_name no)
