@@ -5137,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRYSTAL_ABM8G_ABR"
+		(property "Footprint" "footprints:CRYSTAL_ABM8G_ABR"
 			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6338,7 +6338,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WHAT COLOR"
+		(property "Value" "YELLOW"
 			(at 128.27 100.6474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "120"
 			(at 127 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2719,7 +2719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 173.736 68.834 90)
 			(hide yes)
 			(show_name no)
@@ -3263,7 +3263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 173.736 113.284 90)
 			(hide yes)
 			(show_name no)

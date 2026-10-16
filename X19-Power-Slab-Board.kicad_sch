@@ -7460,7 +7460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 114.3 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9621,7 +9621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 50.8 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10331,7 +10331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 83.82 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10649,7 +10649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 95.25 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11804,7 +11804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 35.56 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12632,7 +12632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 72.39 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12709,7 +12709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23_DBZ_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 130.556 89.916 0)
 			(hide yes)
 			(show_name no)

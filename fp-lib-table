@@ -7,4 +7,7 @@
 	(lib (name "rov_sensors") (type "KiCad") (uri "${KIPRJMOD}/libs/purdue-rov-kicad-lib/Footprints/rov_sensors.pretty") (options "") (descr "Purdue ROV Sensors Footprints"))
 	(lib (name "rov_mech") (type "KiCad") (uri "${KIPRJMOD}/libs/purdue-rov-kicad-lib/Footprints/rov_mech.pretty") (options "") (descr "Purdue ROV Mechanical Footprints"))
 	(lib (name "rov_5V_brick") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/LIB_IRS-5_10-Q12P-C/IRS-5_10-Q12P-C/KiCad") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/I6A4W020A033V-003-R/footprints.pretty/Library.pretty") (options "") (descr ""))
+	(lib (name "i6A4W_DIP_FULL_TDK.kicad_mod") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/I6A4W020A033V-003-R/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/ABM8G-16.000MHZ-18-D2Y-T/footprints.pretty") (options "") (descr ""))
 )
