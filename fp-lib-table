@@ -10,4 +10,5 @@
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/I6A4W020A033V-003-R/footprints.pretty/Library.pretty") (options "") (descr ""))
 	(lib (name "i6A4W_DIP_FULL_TDK.kicad_mod") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/I6A4W020A033V-003-R/footprints.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/ABM8G-16.000MHZ-18-D2Y-T/footprints.pretty") (options "") (descr ""))
+	(lib (name "XT60_YELLOW") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/XT60_YELLOW") (options "") (descr ""))
 )
