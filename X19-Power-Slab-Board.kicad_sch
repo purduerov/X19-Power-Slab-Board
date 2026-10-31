@@ -4350,8 +4350,8 @@
 		(uuid "ade83070-9739-4cf9-9893-ce37eaa072a5")
 	)
 	(rectangle
-		(start 72.39 160.02)
-		(end 124.46 184.15)
+		(start 73.66 162.56)
+		(end 125.73 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -4602,7 +4602,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 78.74 158.75 0)
+		(at 80.01 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5560,7 +5560,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_L"
 		(shape input)
 		(at 133.35 81.28 180)
 		(fields_autoplaced yes)
@@ -5572,7 +5572,7 @@
 		)
 		(uuid "827caae1-8c2c-4bc7-9ea8-58d022d1955b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.3776 81.28 0)
+			(at 124.68 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +5728,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_H"
 		(shape input)
 		(at 133.35 83.82 180)
 		(fields_autoplaced yes)
@@ -5740,7 +5740,7 @@
 		)
 		(uuid "be73020f-dcb4-4a47-a291-09721b52fc18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.68 83.82 0)
+			(at 124.3776 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5752,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_L"
 		(shape input)
 		(at 43.18 189.23 180)
 		(fields_autoplaced yes)
@@ -5764,7 +5764,7 @@
 		)
 		(uuid "bed26fa4-4f15-470b-9980-33e9e9a76c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2076 189.23 0)
+			(at 34.51 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5872,7 +5872,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_H"
 		(shape input)
 		(at 43.18 191.77 180)
 		(fields_autoplaced yes)
@@ -5884,7 +5884,7 @@
 		)
 		(uuid "dc5e51b0-d185-4360-8980-0ee6a2d6700f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.51 191.77 0)
+			(at 34.2076 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +6859,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 171.45 0)
+		(at 110.49 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6869,7 +6869,7 @@
 		(dnp no)
 		(uuid "1867f60d-a135-4d0c-a1ef-cacb6a4e913e")
 		(property "Reference" "GND1"
-			(at 111.76 168.91 0)
+			(at 113.03 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6880,7 +6880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 171.45 0)
+			(at 113.03 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6891,7 +6891,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 114.3 171.45 0)
+			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,7 +6902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 171.45 0)
+			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +6913,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 171.45 0)
+			(at 110.49 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7255,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.38 171.45 180)
+		(at 120.65 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7265,7 +7265,7 @@
 		(dnp no)
 		(uuid "29ca769b-b443-4def-bde3-31d335b4a731")
 		(property "Reference" "3.3V1"
-			(at 117.475 177.1649 0)
+			(at 118.745 179.7049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7276,7 +7276,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 117.475 179.7049 0)
+			(at 118.745 182.2449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7287,7 +7287,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 114.3 171.45 0)
+			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,7 +7298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 171.45 0)
+			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7309,7 +7309,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 171.45 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 171.45 0)
+		(at 110.49 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7747,7 +7747,7 @@
 		(fields_autoplaced yes)
 		(uuid "402bb0e1-a89e-48c0-b1e8-0bb9d4be7f55")
 		(property "Reference" "#PWR026"
-			(at 109.22 177.8 0)
+			(at 110.49 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7758,7 +7758,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 176.53 0)
+			(at 110.49 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7768,7 +7768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 171.45 0)
+			(at 110.49 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 171.45 0)
+			(at 110.49 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7790,7 +7790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 171.45 0)
+			(at 110.49 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8617,7 +8617,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 119.38 171.45 0)
+		(at 120.65 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8628,7 +8628,7 @@
 		(fields_autoplaced yes)
 		(uuid "560f0017-6fbf-49b3-869e-b26078e77083")
 		(property "Reference" "#PWR028"
-			(at 119.38 175.26 0)
+			(at 120.65 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8639,7 +8639,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 119.38 166.37 0)
+			(at 120.65 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8649,7 +8649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 171.45 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8660,7 +8660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 171.45 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8671,7 +8671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 119.38 171.45 0)
+			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9585,7 +9585,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 88.9 171.45 0)
+		(at 90.17 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9595,7 +9595,7 @@
 		(dnp no)
 		(uuid "7e9d0f8a-fc7e-4be6-b77d-0da0547e8d09")
 		(property "Reference" "#PWR022"
-			(at 88.9 175.26 0)
+			(at 90.17 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +9606,7 @@
 			)
 		)
 		(property "Value" "+5.1V"
-			(at 86.36 166.37 0)
+			(at 87.63 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9617,7 +9617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 171.45 0)
+			(at 90.17 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 171.45 0)
+			(at 90.17 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 88.9 171.45 0)
+			(at 90.17 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,7 +9894,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 171.45 180)
+		(at 90.17 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9904,7 +9904,7 @@
 		(dnp no)
 		(uuid "8e47ef54-e19d-42be-a74e-5f3c9334994f")
 		(property "Reference" "5.1V1"
-			(at 86.995 177.1649 0)
+			(at 88.265 179.7049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9915,7 +9915,7 @@
 			)
 		)
 		(property "Value" "5.1V"
-			(at 86.995 179.7049 0)
+			(at 88.265 182.2449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9926,7 +9926,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 83.82 171.45 0)
+			(at 85.09 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9937,7 +9937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 171.45 0)
+			(at 85.09 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9948,7 +9948,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 88.9 171.45 0)
+			(at 90.17 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10212,7 +10212,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 100.33 171.45 180)
+		(at 101.6 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10222,7 +10222,7 @@
 		(dnp no)
 		(uuid "98ab0d11-cc7c-436f-8ea6-f4ff0af757a3")
 		(property "Reference" "48V1"
-			(at 101.6 177.8 0)
+			(at 102.87 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10233,7 +10233,7 @@
 			)
 		)
 		(property "Value" "48V"
-			(at 101.6 180.34 0)
+			(at 102.87 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10244,7 +10244,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
-			(at 95.25 171.45 0)
+			(at 96.52 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10255,7 +10255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 171.45 0)
+			(at 96.52 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10266,7 +10266,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 100.33 171.45 0)
+			(at 101.6 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11640,7 +11640,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 100.33 171.45 0)
+		(at 101.6 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11650,7 +11650,7 @@
 		(dnp no)
 		(uuid "cb1cdbdf-b2d8-4bfb-bb89-0c5f76a18cc8")
 		(property "Reference" "#PWR023"
-			(at 100.33 175.26 0)
+			(at 101.6 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11661,7 +11661,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 100.33 166.37 0)
+			(at 101.6 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11671,7 +11671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 171.45 0)
+			(at 101.6 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11682,7 +11682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 171.45 0)
+			(at 101.6 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11693,7 +11693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 100.33 171.45 0)
+			(at 101.6 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12304,7 +12304,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 77.47 171.45 0)
+		(at 78.74 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12315,7 +12315,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6a83edd-65cc-41b7-b70d-76322e573d3d")
 		(property "Reference" "#PWR019"
-			(at 77.47 175.26 0)
+			(at 78.74 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12326,7 +12326,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 77.47 166.37 0)
+			(at 78.74 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12336,7 +12336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 171.45 0)
+			(at 78.74 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12347,7 +12347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 171.45 0)
+			(at 78.74 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12358,7 +12358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 77.47 171.45 0)
+			(at 78.74 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,7 +12464,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 171.45 180)
+		(at 78.74 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12474,7 +12474,7 @@
 		(dnp no)
 		(uuid "ef0e793b-32d4-4e61-a565-6266d619b86b")
 		(property "Reference" "12V1"
-			(at 75.565 177.1649 0)
+			(at 76.835 179.7049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12485,7 +12485,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 75.565 179.7049 0)
+			(at 76.835 182.2449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12496,7 +12496,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
-			(at 72.39 171.45 0)
+			(at 73.66 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12507,7 +12507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 171.45 0)
+			(at 73.66 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12518,7 +12518,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 171.45 0)
+			(at 78.74 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13011,7 +13011,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 111.76)
+		(at 113.03 124.46)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13027,7 +13027,7 @@
 		)
 		(uuid "40111513-3970-440d-907d-e16164745ccd")
 		(property "Sheetname" "Power"
-			(at 119.38 111.0484 0)
+			(at 113.03 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13038,7 +13038,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 119.38 125.0446 0)
+			(at 113.03 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13057,7 +13057,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 111.76)
+		(at 142.24 124.46)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13073,7 +13073,7 @@
 		)
 		(uuid "9cedee09-c06b-48cb-af3a-8d02fe17e5cc")
 		(property "Sheetname" "MCU"
-			(at 140.97 111.0484 0)
+			(at 142.24 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13084,7 +13084,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32MCU.kicad_sch"
-			(at 140.97 125.0446 0)
+			(at 142.24 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13103,7 +13103,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 130.81)
+		(at 83.82 124.46)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13119,7 +13119,7 @@
 		)
 		(uuid "bbc862bf-048a-4900-acb1-a8352275c096")
 		(property "Sheetname" "Power Monitoring"
-			(at 130.81 130.0984 0)
+			(at 83.82 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13130,7 +13130,7 @@
 			)
 		)
 		(property "Sheetfile" "pm.kicad_sch"
-			(at 130.81 144.0946 0)
+			(at 83.82 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

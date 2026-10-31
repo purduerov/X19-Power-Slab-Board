@@ -2796,9 +2796,9 @@
 		)
 		(uuid "5d043ef1-153f-4fc9-9e5f-ebed23e9d74c")
 	)
-	(text "Debugging / Programming Header"
+	(text "Debugging / Programming Header (ST-LINK)"
 		(exclude_from_sim no)
-		(at 201.93 64.77 0)
+		(at 207.772 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3918,30 +3918,6 @@
 			)
 		)
 	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 207.01 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39be3e80-3399-4d5c-8fc6-8e010efc5636")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7958 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "OSC_OUT_STM"
 		(shape input)
 		(at 44.45 48.26 180)
@@ -4011,30 +3987,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SYS_SWDIO"
-		(shape input)
-		(at 207.01 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6dfa1923-f5ff-4469-b5d9-e7618f595b53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6834 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4182,6 +4134,30 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 207.01 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf92f71f-b9ac-49a3-ac4b-b828efb288ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7958 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OSC_IN_STM"
 		(shape input)
 		(at 199.39 118.11 180)
@@ -4195,6 +4171,30 @@
 		(uuid "c0a98b07-70ad-48fa-9626-2fba0f18c1ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.4781 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SYS_SWDIO"
+		(shape input)
+		(at 207.01 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4ffb307-4a8e-4731-aa26-167db7f42776")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.6834 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,7 +5870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 233.68 86.36 0)
 			(hide yes)
 			(show_name no)
