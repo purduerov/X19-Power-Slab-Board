@@ -18,4 +18,5 @@
 	(lib (name "IRS-5_10-Q12P-C") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/LIB_IRS-5_10-Q12P-C/IRS-5_10-Q12P-C/KiCad/IRS-5_10-Q12P-C.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-10-14_21-13-20") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/ABM8G-16.000MHZ-18-D2Y-T/2026-10-14_21-13-20.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-10-14_21-27-49") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/I6A4W020A033V-003-R/2026-10-14_21-27-49.kicad_sym") (options "") (descr ""))
+	(lib (name "IPT1-105-01-S-D") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/IPT1_105_01_S_D/IPT1-105-01-S-D.kicad_sym") (options "") (descr ""))
 )
