@@ -13,4 +13,5 @@
 	(lib (name "XT60_YELLOW") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/XT60_YELLOW") (options "") (descr ""))
 	(lib (name "IPT1_105_01_S_D") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/IPT1_105_01_S_D") (options "") (descr ""))
 	(lib (name "BD120-10-A-0305-0229-L-B") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/BD120-10-A-0305-0229-L-B/footprints.pretty") (options "") (descr ""))
+	(lib (name "I6A4W020A033V-005-R") (type "KiCad") (uri "${KIPRJMOD}/DigikeyParts/I6A4W020A033V-005-R/footprints.pretty") (options "") (descr ""))
 )
