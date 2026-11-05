@@ -5410,6 +5410,30 @@
 	)
 	(global_label "12V_B4"
 		(shape input)
+		(at 93.98 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1995625e-2ab7-4b87-b4d8-61d9a2caa912")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9199 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "12V_B4"
+		(shape input)
 		(at 39.37 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5741,6 +5765,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "12V_B4"
+		(shape input)
+		(at 68.58 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b84f1608-4ca3-40eb-9b72-c57a05491b97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.6401 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6424,83 +6472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0edc4274-54ef-43c2-b4a1-d4a3a5998d58")
-		(property "Reference" "#PWR05"
-			(at 27.94 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "48V_RETURN"
-			(at 27.94 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14d21fef-7832-425b-98fe-12f5b49c6d0c")
-		)
-		(instances
-			(project "X19-Power-Slab-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 187.96 39.37 0)
 		(mirror y)
@@ -7134,6 +7105,84 @@
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a4cc9c3-1f52-47aa-901d-c12198bc7a47")
+		(property "Reference" "#PWR0132"
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a51c8de-833b-4255-a9c5-6eaaa4b99640")
+		)
+		(instances
+			(project "X19-Power-Slab-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -9778,84 +9827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 68.58 87.63 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a0c5276-c86d-480e-b71e-3ffeb1d7a418")
-		(property "Reference" "#PWR069"
-			(at 72.39 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 62.23 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 68.58 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9abd28c5-df01-4499-a7a8-6d79fd81c138")
-		)
-		(instances
-			(project "X19-Power-Slab-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 43.18 0)
 		(unit 1)
@@ -10863,83 +10834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 35.56 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b65b3176-6c0d-4deb-af32-6f634b2e2d29")
-		(property "Reference" "#PWR07"
-			(at 35.56 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "48V_RETURN"
-			(at 35.56 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58befc71-a52f-4f90-ae33-1dceb8cdd19f")
-		)
-		(instances
-			(project "X19-Power-Slab-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 265.43 90.17 0)
 		(unit 1)
@@ -11354,9 +11248,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 93.98 87.63 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 27.94 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11364,9 +11257,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "be842a1e-dc95-401a-8360-a51d78d5f3c1")
-		(property "Reference" "#PWR021"
-			(at 90.17 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "c3be22c8-2327-43d6-804c-7e8815197189")
+		(property "Reference" "#PWR0133"
+			(at 27.94 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11376,8 +11270,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 100.33 87.63 90)
+		(property "Value" "GND"
+			(at 27.94 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11387,7 +11281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 87.63 0)
+			(at 27.94 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11398,7 +11292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 87.63 0)
+			(at 27.94 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11408,8 +11302,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11420,12 +11314,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88b3ee3b-884b-4122-9551-5565d3861558")
+			(uuid "946c85c0-a108-4845-8e54-220fcf278a7c")
 		)
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "#PWR021")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
