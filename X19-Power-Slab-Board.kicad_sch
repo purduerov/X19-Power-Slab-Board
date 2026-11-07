@@ -5600,6 +5600,30 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 24.13 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74fee345-488a-4d87-a9fe-eff037f51120")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.5767 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CAN_L"
 		(shape input)
 		(at 133.35 81.28 180)
@@ -5866,7 +5890,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 24.13 170.18 180)
+		(at 215.9 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5874,9 +5898,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bf484db3-1c4f-4650-a312-02aa54a3f8b7")
+		(uuid "c04777ae-c61e-433d-9721-cc67379e448a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.6372 170.18 0)
+			(at 209.4072 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5890,7 +5914,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 215.9 34.29 180)
+		(at 24.13 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5898,9 +5922,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c04777ae-c61e-433d-9721-cc67379e448a")
+		(uuid "c5d84755-8836-4980-8f37-daa72de9d51c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4072 34.29 0)
+			(at 17.6372 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,30 +6021,6 @@
 		(uuid "ddde023c-48db-4032-aeba-8dbb2aae7820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.4101 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 24.13 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df446bd9-01e1-4533-a57f-128e7e8cf3f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.5767 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
