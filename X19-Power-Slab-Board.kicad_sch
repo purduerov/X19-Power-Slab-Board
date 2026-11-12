@@ -4667,12 +4667,6 @@
 		(uuid "f5914498-4a71-43c2-a63a-d4e14821e69c")
 	)
 	(junction
-		(at 134.62 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33105a8c-2fc6-4774-a684-78caea90bc24")
-	)
-	(junction
 		(at 35.56 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4709,12 +4703,6 @@
 		(uuid "7ce3fd36-02a3-44b3-ab5f-8bdd88aaefc0")
 	)
 	(junction
-		(at 134.62 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82f30a61-6242-4625-b60d-26d8ae52713e")
-	)
-	(junction
 		(at 50.8 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4731,14 +4719,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b99203a0-528e-43da-b071-464df9f57252")
-	)
-	(no_connect
-		(at 68.58 92.71)
-		(uuid "1227ab6c-f3c4-4064-9f9b-00c266c43207")
-	)
-	(no_connect
-		(at 93.98 92.71)
-		(uuid "60aa8665-3ab2-47df-b6bc-5134823addb1")
 	)
 	(wire
 		(pts
@@ -8390,85 +8370,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 134.62 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d6b7413-4f00-4202-a035-311027c2ec94")
-		(property "Reference" "TP6"
-			(at 133.35 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 137.16 79.2479 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
-			(at 139.7 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 134.62 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a3759e5c-70c4-485c-b0c8-287be225005b")
-		)
-		(instances
-			(project "X19-Power-Slab-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 140.97 0)
 		(unit 1)
@@ -8952,6 +8853,83 @@
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 93.98 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66ebc73c-fcf4-489b-8d86-a448332d5ccf")
+		(property "Reference" "#PWR069"
+			(at 90.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5.1V"
+			(at 100.33 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 93.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0066229-231a-4446-b6a3-67158f980130")
+		)
+		(instances
+			(project "X19-Power-Slab-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9904,6 +9882,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e2ec209-5e48-4c6c-8fe8-48ef7a4a2d21")
+		(property "Reference" "#PWR0134"
+			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5.1V"
+			(at 62.23 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d412b314-10da-45c7-be9f-6efea80c5786")
+		)
+		(instances
+			(project "X19-Power-Slab-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 90.17 173.99 180)
 		(unit 1)
@@ -10594,85 +10649,6 @@
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 134.62 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a30d61f6-ac36-4711-9f50-45c13835896f")
-		(property "Reference" "TP7"
-			(at 135.89 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 132.08 85.8521 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
-			(at 129.54 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 134.62 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd028805-1864-4e77-9332-5eb881ef3d50")
-		)
-		(instances
-			(project "X19-Power-Slab-Board"
-				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
