@@ -5151,7 +5151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CRYSTAL_ABM8G_ABR"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
