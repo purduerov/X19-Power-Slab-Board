@@ -23,8 +23,3 @@
 (rule "JLC NPTH min hole"
     (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
     (constraint hole_size (min 0.5mm)))
-
-(rule "JLC silkscreen to pad"
-    (severity warning)
-    (condition "A.Layer == '?.Silkscreen' && B.Type == 'Pad'")
-    (constraint silk_clearance (min 0.15mm)))
