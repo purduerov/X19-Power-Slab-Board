@@ -10,13 +10,21 @@ _autosave-*
 *.kicad_sch-bak
 *.kicad_pcb-bak
 *.kicad_pro-bak
+*-backups/
+fp-info-cache
+
+# KiCad local history snapshots
+.history/
 
 # KiCad lock files
 *.lck
 
-# KiBot / Output directories
+# Fabrication outputs
 Generated_Outputs/
 Outputs/
+Manufacturing/
+manufacturing/
+manufacturing.zip
 
 # OS/Editor files
 .DS_Store
@@ -25,5 +33,5 @@ Thumbs.db
 # Central devops cache
 .pcb-devops-cache/
 
-
-.history/
+# Generated local ROV hooks
+.rov-hooks/
