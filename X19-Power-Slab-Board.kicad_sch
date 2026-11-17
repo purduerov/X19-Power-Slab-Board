@@ -12072,7 +12072,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ58A"
+		(property "Value" "SMCJ51A"
 			(at 24.13 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)

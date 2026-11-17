@@ -18401,7 +18401,7 @@
 				)
 			)
 		)
-		(property "Value" "SMCJ58A"
+		(property "Value" "SMCJ51A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "4f6a372e-55ae-4d5f-859e-c59e9e8df28a")
