@@ -51,7 +51,7 @@ To browse parts, inspect footprints, edit properties, or add/delete components i
 
 ## Design Rules & Clearances
 
-- Clearance rules are defined in `custom_rules.kicad_dru`.
+- Clearance rules (JLCPCB 4-layer rules) are defined in `X19-Power-Slab-Board.kicad_dru`.
 - High-power thruster nets require a minimum 2.0 mm clearance from low-voltage logic (3.3V / 5V).
 
 ## Automated CI/CD & DevOps Preflight Checks
