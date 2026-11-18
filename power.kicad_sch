@@ -3975,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00df35c0-cb47-4380-8d62-221400a79dd0")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 242.57 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,6 +4030,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0723K7L"
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f71dace6-706e-4416-a99d-bc23cefcb18e")
 		)
@@ -4039,7 +4116,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4057,7 +4134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "066746a4-b727-405b-b757-9a2d6a8287c3")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 160.02 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 25V"
 			(at 160.02 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,6 +4189,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0805KKX7R8BB105"
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 156.21 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f7e35c8-dc37-4687-be89-9f7684b54662")
 		)
@@ -4121,7 +4275,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09009584-0888-4e1e-9039-e0db0dd69f3f")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 163.83 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4149,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 163.83 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,6 +4347,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae9ab9bf-a0fb-4262-8a32-b7e3f79f61af")
 		)
@@ -4202,7 +4422,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4219,7 +4439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dfdc57d-5c91-4633-8ab8-a0ef74e9e5fb")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR095"
 			(at 196.85 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4279,7 +4499,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0120")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -4297,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e350554-c3cc-4d36-9e58-930df7a4decd")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0107"
 			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4357,7 +4577,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR096")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4374,7 +4594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f667548-52e4-47bf-96c7-8db64c9369ff")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 152.4 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 152.4 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,6 +4649,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "887cfa66-56ec-4221-97fd-ca3aaf213fe9")
 		)
@@ -4438,7 +4724,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13e97fb4-00f0-403a-ace1-08a306a8134e")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 119.38 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4515,7 +4801,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18621879-04db-4b8c-93d9-8cad6f744c55")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR085"
 			(at 133.35 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4878,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR084")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4604,13 +4890,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3ec6af-c421-4bdf-8d1d-b2570ef75ef5")
-		(property "Reference" "PG4"
-			(at 191.77 156.21 0)
+		(property "Reference" "TP9"
+			(at 194.056 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4620,8 +4906,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 190.5 158.75 0)
+		(property "Value" "PG4"
+			(at 193.548 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4664,13 +4950,79 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "373bc3d4-a4ad-4c72-adea-1ad2a88d2719")
 		)
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "PG4")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4688,7 +5040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d60583d-f672-4f54-b852-e1c1bc9a970c")
-		(property "Reference" "B5"
+		(property "Reference" "B4"
 			(at 218.44 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4803,6 +5155,83 @@
 				(justify left top)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "E48SC12030NRFH"
+			(at 199.39 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "c5a3d443-5544-4a61-ae6c-a544b6710047")
 		)
@@ -4845,7 +5274,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "B5")
+					(reference "B4")
 					(unit 1)
 				)
 			)
@@ -4862,7 +5291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20fa51e3-1cb8-4abb-90f6-e1ae6a652e14")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0109"
 			(at 240.03 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4922,7 +5351,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR097")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4939,7 +5368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "246b8714-2f28-4c07-b805-efa61cef1510")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR086"
 			(at 144.78 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4999,7 +5428,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR085")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259f3611-3a96-4885-b8fb-5a6a384a7693")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 71.12 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5028,7 +5457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 71.12 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,6 +5501,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX7R8BB104"
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 67.31 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d31aeffc-fd96-4698-ae29-805e967fe24f")
 		)
@@ -5081,7 +5587,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5098,7 +5604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26d1e27d-b436-4ca7-8c9a-829c54f8f951")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5158,7 +5664,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5176,7 +5682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2731457d-902b-4809-a755-487a3cc4ea4a")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR098"
 			(at 190.5 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5237,7 +5743,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0128")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a427262-c0f7-4d52-96d8-17dec243ec47")
-		(property "Reference" "B2"
+		(property "Reference" "B1"
 			(at 218.44 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,6 +5876,83 @@
 				(justify left top)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "E48SC12030NRFH"
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "9d65d853-9c61-46e1-beb8-1a8d13646455")
 		)
@@ -5412,7 +5995,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "B2")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -5429,7 +6012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cc970ea-fe52-427d-84fd-87f06e243565")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR093"
 			(at 156.21 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5489,7 +6072,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR092")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5507,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d404655-55b1-4460-9ff9-6eeaabb76e6a")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 53.34 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5562,6 +6145,83 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "i6A4W020A033V-005-R"
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "5c8e540c-96f9-4476-81df-096923d4fa11")
 		)
@@ -5595,7 +6255,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5612,7 +6272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33aa8061-b330-4842-b541-e67ac12b0825")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR089"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5672,7 +6332,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR088")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5690,7 +6350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3587c0b7-d50c-40c6-af55-a31b875cc005")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR094"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5751,7 +6411,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0124")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5769,7 +6429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35de22bd-92c2-4fb5-9d8f-3df601393c31")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 82.55 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +6440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 82.55 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5824,6 +6484,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC1206KKX5R8BB226"
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 78.74 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "54e0c55d-335d-4c26-a76f-df554778cb2a")
 		)
@@ -5833,7 +6570,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5851,7 +6588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a2b95b-920e-4ff0-b380-546eb4aadb26")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0106"
 			(at 246.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5912,7 +6649,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0129")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -5930,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b7bcf6-8442-47a4-b16f-24013e42dfd4")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0108"
 			(at 246.38 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5991,7 +6728,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0131")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6009,7 +6746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ead4a5-3838-46a6-bb85-4bd9da314bec")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 67.31 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6069,7 +6806,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6087,7 +6824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aef1e11-9eba-4ff0-9b43-b7bd7dd3a295")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 26.67 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u"
 			(at 26.67 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,6 +6879,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "061f920e-31e2-4353-b51b-f3233cd9d50b")
 		)
@@ -6151,7 +6954,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6168,7 +6971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3df44166-284c-4ce5-9acc-14f2edc920ed")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR069"
 			(at 67.31 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +7032,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR067")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6246,7 +7049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3df6a7a5-7f99-4441-a3b2-c38f43b0e1c8")
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 133.35 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +7060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 133.35 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6301,6 +7104,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47574437-aaa9-4763-942b-3c527c72f052")
 		)
@@ -6310,7 +7179,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6327,7 +7196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e5cb30d-c710-4a78-9bf6-85ced22321fe")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 121.92 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +7207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 121.92 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,6 +7251,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "725d8bb0-0ef7-4021-a612-a5a1d7e99401")
 		)
@@ -6391,7 +7326,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6408,7 +7343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "418b76f3-7fbc-4ff6-a9c1-62e26b788968")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR087"
 			(at 144.78 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6468,7 +7403,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR086")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6485,7 +7420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48f6c4ee-ca5a-40a9-a980-8dc07e4e6ffd")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 119.38 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6545,7 +7480,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6562,7 +7497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a6263a0-2632-43d3-bd17-ac79d68dbf18")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0113"
 			(at 250.19 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6622,7 +7557,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0101")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6640,7 +7575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a7af28c-7dfb-49eb-a603-8035feb3cb4c")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR063"
 			(at 22.86 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6700,7 +7635,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0119")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6718,7 +7653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba0df6f-ccb6-4922-a74e-e719763a4761")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 39.37 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6729,7 +7664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 39.37 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,6 +7708,83 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93ca2105-78ed-414c-aaec-49b5561aeafe")
 		)
@@ -6782,7 +7794,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6799,7 +7811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "542e1480-b5db-4522-9b0c-d67a775b399b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 119.38 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6859,7 +7871,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6876,7 +7888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "547f8c4f-a6d1-4368-bcc4-30a66b08c161")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR088"
 			(at 149.86 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6936,7 +7948,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR087")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -7032,7 +8044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e7bbba0-c93f-4dcc-ba57-a18ed21f0e08")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 123.19 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,7 +8055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 100V"
 			(at 123.19 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7087,6 +8099,83 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 119.38 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87c64f49-ac8a-4454-adca-f0aa89882db8")
 		)
@@ -7096,7 +8185,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7114,7 +8203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ef72c2a-4d7a-4e11-9915-a650bbcb95d3")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0100"
 			(at 190.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7175,7 +8264,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0130")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -7192,7 +8281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61d181e6-475a-4dc6-933e-15aaaac58d05")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 152.4 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +8292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 152.4 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,6 +8336,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca427878-03ce-4b12-89e6-39b2e12b71fd")
 		)
@@ -7256,7 +8411,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7274,7 +8429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6310413e-7096-402e-a4a0-2a34a9ef5a95")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 22.86 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7334,7 +8489,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7351,7 +8506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65103e84-3977-48d7-b5cd-6b6eaae13b08")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0101"
 			(at 199.39 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7411,7 +8566,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR093")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -7429,7 +8584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "652cc618-8d9c-4f92-b520-5db85e96dba7")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 123.19 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7440,7 +8595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u 100V"
 			(at 123.19 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,6 +8639,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "680a8276-c4f8-488d-8f3a-1a3b1b840573")
 		)
@@ -7493,7 +8714,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7511,7 +8732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa4aff1-23a4-4f86-b54a-ad8280746ddf")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 137.16 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +8743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 25V"
 			(at 137.16 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,6 +8787,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0805KKX7R8BB105"
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f5dd2e0-ab7e-4d64-ab60-63b4722c8009")
 		)
@@ -7575,7 +8873,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7593,7 +8891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd4f0d0-70c1-4ce0-b910-a15c14eef3b7")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0110"
 			(at 250.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7653,7 +8951,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR098")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7671,7 +8969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c186e48-8744-4b22-be78-a262af953bcb")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 252.73 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,6 +9024,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0754K9L"
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 250.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a450e790-0c39-4e5f-8b7d-57c09176ef35")
 		)
@@ -7735,7 +9110,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7753,7 +9128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e387013-f7e1-4f97-9d9f-c14d6c8d8de5")
-		(property "Reference" "B3"
+		(property "Reference" "B2"
 			(at 218.44 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7868,6 +9243,83 @@
 				(justify left top)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "E48SC12030NRFH"
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "2db0e2a9-bee0-4113-b499-32e3b3e275af")
 		)
@@ -7910,7 +9362,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "B3")
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -7928,7 +9380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f9e4f63-ad87-4a1d-9670-01a5885c00cb")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR066"
 			(at 25.4 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7988,7 +9440,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR015")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8006,7 +9458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70790d5b-fd9b-4213-b172-6c221f36eb18")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0111"
 			(at 250.19 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8066,7 +9518,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR099")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8083,7 +9535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7303cec6-8b56-4689-98f2-07b8b7b2a035")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8143,7 +9595,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8161,7 +9613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c8f8de0-e2b3-4a8c-9385-8766815034c9")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 165.1 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8172,7 +9624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u 100V"
 			(at 165.1 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,6 +9668,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa996288-6fca-4676-b2e3-153271d17c9e")
 		)
@@ -8225,7 +9743,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -8243,7 +9761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d49cb5-3622-402c-a882-935bb8cc190e")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR096"
 			(at 190.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8304,7 +9822,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0126")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -8321,7 +9839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "850c4a10-669c-4e49-80ac-7d7e7d7c75cd")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 86.36 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,7 +9850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 86.36 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,6 +9894,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e7412fa-1287-4248-b2be-5e170ace43ce")
 		)
@@ -8385,7 +9980,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8403,7 +9998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4be205-0713-4ae4-889a-89b363687162")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 86.36 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8463,7 +10058,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR070")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8481,7 +10076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c38e7d5-1bdd-4ec2-99f6-bb829cd0c658")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0102"
 			(at 246.38 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8542,7 +10137,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0125")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -8559,7 +10154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c8e6698-ac24-4908-b93c-96cd41fe138b")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR099"
 			(at 196.85 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8619,7 +10214,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0122")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -8636,7 +10231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e2bb608-f793-4bbc-b57a-a561f8462cba")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR097"
 			(at 196.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8696,7 +10291,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0121")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8714,7 +10309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f680330-046e-4d8e-a476-b1852fa84d58")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 137.16 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8725,7 +10320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u 100V"
 			(at 137.16 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8769,6 +10364,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25f6ec89-69d5-41b3-8321-e330de12c73b")
 		)
@@ -8778,7 +10439,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -8795,7 +10456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90fef3aa-c6cf-402a-8e04-d3e1d04bafd1")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR084"
 			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8855,7 +10516,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -8873,7 +10534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92d34f97-6c28-4553-b3bc-527d092e98b9")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 157.48 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,7 +10545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 100V"
 			(at 157.48 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8928,6 +10589,83 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 153.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "172f07ec-1e96-47e7-898d-8028565b9397")
 		)
@@ -8937,7 +10675,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -8954,7 +10692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95e4549c-4c0d-4deb-86f8-99c57b674a9f")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 29.21 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8965,7 +10703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 29.21 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9009,6 +10747,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0603KRX5R6BB105"
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 26.67 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee00d8dd-399f-4288-a6df-9011fd288a55")
 		)
@@ -9018,7 +10833,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9036,7 +10851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a526f135-3fee-4a49-a7d4-890b445e420a")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 146.05 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +10862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 100V"
 			(at 146.05 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9091,6 +10906,83 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af515086-3592-40ec-ad0e-8eecfffea964")
 		)
@@ -9100,7 +10992,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9118,7 +11010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ee6e3b-2d6d-4b6c-9a33-151352b2d2b2")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0103"
 			(at 240.03 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9178,7 +11070,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR094")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -9190,13 +11082,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af0d6ba0-6540-428d-ac43-280db6374e41")
-		(property "Reference" "PG3"
-			(at 191.77 123.19 0)
+		(property "Reference" "TP8"
+			(at 193.802 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9206,8 +11098,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 190.5 125.73 0)
+		(property "Value" "PG3"
+			(at 193.548 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9250,13 +11142,79 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7eebf925-4203-49ee-84db-e5d48ac9b086")
 		)
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "PG3")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -9274,7 +11232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af61faaf-c55f-4d0e-a58b-e23b2bf41e39")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 148.59 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,7 +11243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 25V"
 			(at 148.59 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,6 +11287,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0805KKX7R8BB105"
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6db3db7c-92ed-47b0-8bef-292cf3ff076e")
 		)
@@ -9338,7 +11373,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9355,7 +11390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b25219cd-6727-4f59-a25b-b79d5fa54f5b")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 119.38 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9415,7 +11450,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9432,7 +11467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2a0c517-8714-465a-a744-4c46dd28f32a")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9492,7 +11527,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR089")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -9510,7 +11545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c6a91f-1da7-4caa-8b7f-ef0711af159c")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 242.57 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9565,6 +11600,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 240.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fde003b-b8a6-4b9f-b941-c563012df4ef")
 		)
@@ -9574,7 +11686,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9592,7 +11704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4195214-bb0e-465c-af7c-05f7670a0b99")
-		(property "Reference" "B4"
+		(property "Reference" "B3"
 			(at 218.44 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9707,6 +11819,83 @@
 				(justify left top)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "E48SC12030NRFH"
+			(at 199.39 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "e11039a9-6979-4925-aa2d-5ec6c9efc3d9")
 		)
@@ -9749,7 +11938,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "B4")
+					(reference "B3")
 					(unit 1)
 				)
 			)
@@ -9767,7 +11956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b556e2ed-0264-43fd-9c39-7a235e484fed")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 242.57 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9822,6 +12011,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0736K5L"
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ccfb5fe-043e-4997-9d17-12728c7c0ced")
 		)
@@ -9831,7 +12097,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9849,7 +12115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba07f621-d9a8-42eb-86bc-c0b7b48a8baf")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 53.34 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9904,6 +12170,83 @@
 				)
 			)
 		)
+		(property "Part Number" "MIC5504-3.3YM5-TR"
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b840d1dc-70c8-4b42-8712-254e4deb1cf7")
 		)
@@ -9922,7 +12265,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9940,7 +12283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba2677cd-38f6-4b2c-aba1-b1f8238d3c0e")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0104"
 			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10001,7 +12344,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0127")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -10018,7 +12361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc1049cd-d650-43b5-a00e-01a7be3f66c2")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 163.83 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,7 +12372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 163.83 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10073,6 +12416,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b4dbe73-75ca-4d33-bfdb-7b5e36be1cf1")
 		)
@@ -10082,7 +12491,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -10099,7 +12508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd9e1d67-4dff-42ff-9c21-3d3745d7d50c")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR092"
 			(at 156.21 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10159,7 +12568,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR091")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -10171,13 +12580,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c07d6026-eae5-4fc8-925d-45262cab63e4")
-		(property "Reference" "PG1"
-			(at 191.77 59.69 0)
+		(property "Reference" "TP6"
+			(at 193.802 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10187,8 +12596,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 190.5 62.23 0)
+		(property "Value" "PG1"
+			(at 193.802 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10231,13 +12640,79 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86a1a3c7-6013-4fa2-ad11-d2b31569bb5b")
 		)
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "PG1")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10332,7 +12807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c891441b-4a6f-425d-a754-a6aecd2cd7d1")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 252.73 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10387,6 +12862,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0754K9L"
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5bc5f09b-701e-4853-b863-6e17ee552537")
 		)
@@ -10396,7 +12948,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10413,7 +12965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce8fedc1-4bfa-4da9-a18b-6ae90f60a5d1")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 22.86 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10474,7 +13026,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10486,13 +13038,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d02dd7b0-97ad-4c50-95bb-f71303b9cdcc")
-		(property "Reference" "PG2"
-			(at 191.77 90.17 0)
+		(property "Reference" "TP7"
+			(at 193.802 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10502,8 +13054,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 190.5 92.71 0)
+		(property "Value" "PG2"
+			(at 193.294 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10546,13 +13098,79 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 199.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 199.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 199.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5d14211-0596-40e0-80a2-57c564d822b3")
 		)
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "PG2")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -10570,7 +13188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d04acf2c-6164-4a03-88f2-9a95f54dab7f")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 151.13 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +13199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u 100V"
 			(at 151.13 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,6 +13243,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0641e2d1-c5d4-4662-9f51-8397098cbda9")
 		)
@@ -10634,7 +13318,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -10652,7 +13336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d27abe93-6139-4a94-a015-68320b0ca764")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 242.57 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10707,6 +13391,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0715K4L"
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 240.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0257919-92f1-4694-8756-a8367db57244")
 		)
@@ -10716,7 +13477,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10733,7 +13494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d88a07b2-9d12-4ab6-b9b6-a7ea3c23c5f6")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10793,7 +13554,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10810,7 +13571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dafcba9f-1182-491a-9ada-1a958dd77bae")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 121.92 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10821,7 +13582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 121.92 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10865,6 +13626,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bb3d1b0-b93f-43bd-b87b-06665cdbfdbd")
 		)
@@ -10874,7 +13701,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10891,7 +13718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db40aeb0-6918-4cfe-80eb-29b682ff01cb")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR082"
 			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10951,7 +13778,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR081")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -10969,7 +13796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e067d776-4f48-49c3-80a6-df8ad4b69895")
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 134.62 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +13807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 100V"
 			(at 134.62 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11024,6 +13851,83 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 130.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8018514f-1044-4caa-aabb-f5fa545c9eb3")
 		)
@@ -11033,7 +13937,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -11051,7 +13955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3620132-d77a-4322-b1ce-dfe16a5d0728")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 125.73 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11062,7 +13966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u 25V"
 			(at 125.73 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,6 +14010,83 @@
 				)
 			)
 		)
+		(property "Part Number" "CC0805KKX7R8BB105"
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 121.92 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d8365f4-e42e-4cff-ac86-dd857302b3ac")
 		)
@@ -11115,7 +14096,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11132,7 +14113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7067f35-788a-47a9-8201-8db25b62dd05")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR091"
 			(at 149.86 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11192,7 +14173,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR090")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -11210,7 +14191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e83b597c-d4af-4bf5-a565-f84f265593ab")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0112"
 			(at 250.19 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11270,7 +14251,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR0100")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11287,7 +14268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb26ac01-3211-4967-8607-e0ebc3b87870")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11347,7 +14328,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -11365,7 +14346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9bb6fd-e95f-4de5-a25d-a677c59613e6")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 252.73 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11420,6 +14401,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0754K9L"
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 250.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "368ec129-ef77-4d5f-bf9a-5daa59daa504")
 		)
@@ -11429,7 +14487,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11446,7 +14504,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eed677db-a83b-4706-840e-9dcb1c7567e0")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 133.35 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11457,7 +14515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470u 25V"
 			(at 133.35 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11501,6 +14559,72 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46dce097-6756-4f0a-bdc6-253224048c2a")
 		)
@@ -11510,7 +14634,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11528,7 +14652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efc6f406-fe57-44ad-8174-2927c8dbbe56")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 26.67 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11588,7 +14712,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11605,7 +14729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f10bf5e8-3957-407a-95b4-912247d36134")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 50.8 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11658,6 +14782,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-078K2L"
+			(at 50.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 50.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 50.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 50.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 50.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 50.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 50.8 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "97281258-2449-4198-885f-94e461792638")
 		)
@@ -11667,7 +14868,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11684,7 +14885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f29f2c5c-7e6a-4010-8c28-bf44d9ecd83c")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 119.38 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11744,7 +14945,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11762,7 +14963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4030d5d-25a0-4374-9099-53cc0d1bdcbf")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0105"
 			(at 240.03 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11822,7 +15023,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR095")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11840,7 +15041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69b27fc-fbd6-479b-b097-b21fcc487218")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 252.73 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11895,6 +15096,83 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0754K9L"
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "916380f8-d0cb-49c3-91ae-bc0ee87ecc23")
 		)
@@ -11904,7 +15182,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11921,7 +15199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9ee5eab-e639-453f-8c68-fd479ed54fac")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR083"
 			(at 121.92 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11981,7 +15259,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "#PWR082")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
