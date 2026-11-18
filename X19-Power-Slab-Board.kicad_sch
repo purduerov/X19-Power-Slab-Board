@@ -6965,7 +6965,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b46c43d-09df-43c5-b890-1a841de183e2")
 		(property "Reference" "J4"
 			(at 41.402 179.07 0)
@@ -8155,7 +8155,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1a1de844-c809-41fd-ac03-8995b611262a")
 		(property "Reference" "J3"
 			(at 52.07 161.29 0)
@@ -10039,7 +10039,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4cdc6c46-d6ca-497c-a10b-5966b07f8644")
 		(property "Reference" "J1"
 			(at 27.94 161.29 0)
@@ -15537,7 +15537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_logic:D0008A-IPC_A"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 104.14 30.48 0)
 			(hide yes)
 			(show_name no)

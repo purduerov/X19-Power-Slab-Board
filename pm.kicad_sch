@@ -1562,7 +1562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_sensors:VSSOP_IDGSR_TEX"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 119.38 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2529,7 +2529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_sensors:VSSOP_IDGSR_TEX"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)

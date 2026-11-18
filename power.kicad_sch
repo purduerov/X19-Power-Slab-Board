@@ -6110,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "I6A4W020A033V-005-R:i6A4W_DIP_FULL_TDK"
+		(property "Footprint" "rov_power:i6A4W_DIP_FULL_TDK"
 			(at 25.4 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12135,7 +12135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_power:SOT-23-5_MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)

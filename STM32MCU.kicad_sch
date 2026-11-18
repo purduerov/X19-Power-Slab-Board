@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rov_logic:LQFP48-7X7"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
