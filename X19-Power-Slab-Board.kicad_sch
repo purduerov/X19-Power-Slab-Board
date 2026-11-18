@@ -7315,7 +7315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 184.15 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8938,7 +8938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 273.05 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10255,6 +10255,17 @@
 				)
 			)
 		)
+		(property "Part Number" "43650-0200"
+			(at 125.73 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3790e8f-2d0d-4725-9bad-63492f6799a1")
 		)
@@ -10406,6 +10417,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "43650-0200"
 			(at 125.73 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12218,6 +12240,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "43650-0300"
 			(at 125.73 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14512,7 +14545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 170.18 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
