@@ -13696,7 +13696,7 @@
 				)
 			)
 		)
-		(property "Value" "IPT1-105-01-S-D"
+		(property "Value" "IPT1-105-03-L-D"
 			(at 81.28 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13842,7 +13842,7 @@
 				)
 			)
 		)
-		(property "Part Number" "IPT1-105-01-S-D"
+		(property "Part Number" "IPT1-105-03-L-D"
 			(at 81.28 87.63 0)
 			(hide yes)
 			(show_name no)

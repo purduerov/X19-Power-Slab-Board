@@ -65080,9 +65080,9 @@
 			(uuid "3d2ff9f4-6e2c-4523-9bb9-fce12a0ac541")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3D/IPT1-105-01-S-D.stp"
+		(model "${KIPRJMOD}/3D/IPT1-105-03-L-D.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
