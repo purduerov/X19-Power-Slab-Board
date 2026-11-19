@@ -1,46 +1,47 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,AVAILABILITY,MAXIMUM_PACKAGE_HEIGHT,MF,MP,PACKAGE,PRICE,Part Number,Sim.Pins,PARTREV,STANDARD,MANUFACTURER,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name,Manufacturer_Part_Number
 1,"Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A",E48SC12030NRFH,B1 B2 B3 B4,E48SC12030NRFH,E48SC12030NRFH,4, ,https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf,,,,,,,E48SC12030NRFH,,,,,13.2,,,Delta Electronics,E48SC12030NRFH
 2,Unpolarized capacitor,C,C10 C16,8p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603DRNPO9BN8R0,,,,,,,,,
-3,Unpolarized capacitor,C,C5 C6 C7 C8 C9 C11 C13 C15 C20 C43 C44,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,11, ,,,,,,,,CC0603KRX7R8BB104,,,,,,,,,
+3,Unpolarized capacitor,C,C5 C6 C7 C8 C9 C11 C13 C15 C20 C44 C45,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,11, ,,,,,,,,CC0603KRX7R8BB104,,,,,,,,,
 4,Unpolarized capacitor,C,C18 C22,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603KRX5R6BB105,,,,,,,,,
 5,Unpolarized capacitor,C,C19 C24 C27 C28 C32 C33 C34 C38 C39,1u 100V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,9, ,,,,,,,,CGA4J3X7S2A105M125AE CC0805KKX7R8BB105,,,,,,,,,
 6,Unpolarized capacitor,C,C14,2.2u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,CC0603KRX5R6BB225,,,,,,,,,
 7,Unpolarized capacitor,C,C12,4.7u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,CC0603KRX5R6BB475,,,,,,,,,
 8,Unpolarized capacitor,C,C3,10u 100V,C_1210_3225Metric,1, ,,,,,,,,GMC32X7R106K100NT,,,,,,,,,
 9,Unpolarized capacitor,C,C21,22u 25V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1, ,,,,,,,,CC1206KKX5R8BB226,,,,,,,,,
-10,Unpolarized capacitor,C,C17 C23 C31 C35 C40,100u 100V,CP_Radial_D10.0mm_P5.00mm,5, ,,,,,,,,100ZLH100MEFC10X20,,,,,,,,,
-11,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2,330u 100V,CP_Radial_D13.0mm_P5.00mm,2, ,,,,,,,,860040878008,,,,,,,,,
-12,Unpolarized capacitor,C,C25 C26 C29 C30 C36 C37 C41 C42,470u 25V,CP_Radial_D10.0mm_P5.00mm,8, ,,,,,,,,25CZJ470M10X9,,,,,,,,,
-13,,ESD2CAN24DBZRQ1,D2,ESD2CAN24DBZRQ1,SOT-23_Handsoldering,1, ,ESD2CAN24DBZRQ1,,,,,,,ESD2CAN24DBZRQ1,,,,,,,,,
-14,Light emitting diode,LED,D3,GREEN,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190GKT,1=K 2=A,,,,,,,,
-15,Light emitting diode,LED,D6,GREEN,LED_0603_1608Metric,1, ,,,,,,,,LTST-C190GKT,1=K 2=A,,,,,,,,
-16,Light emitting diode,LED,D4,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190KRKT,1=K 2=A,,,,,,,,
-17,"ESD Protection Diode, DO-214AB, SMC",ESD5Zxx,D1,SMCJ51A,D_SMC,1, ,https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_smcj_datasheet.pdf?assetguid=37388813-0d6d-4329-969b-1aa8b7614ac1,,,,,,,SMCJ51A,,,,,,,,,
-18,Light emitting diode,LED,D5,YELLOW,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190YKT,1=K 2=A,,,,,,,,
-19,,796636-6,J2,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,796636-6,,,,,,,,,
-20,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J7 J8,Conn_01x02,Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal,2, ,,,,,,,,43650-0200,,,,,,,,,
-21,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J6,Conn_01x03,Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal,1, ,,,,,,,,43650-0300,,,,,,,,,
-22,,IPT1-105-01-S-D,J5,IPT1-105-01-S-D,SAMTEC_IPT1-105-01-S-D,1, ,,,,,,,,IPT1-105-01-S-D,,R,Manufacturer Recommendations,Samtec,,,,,
-23,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J9 J10 J11 J12 J13 J14 J15 J16,XT60,AMASS_XT60PB-M,8, ,,,,,,,,1568-10474-ND,,,,,,,,,
-24,"Resistor, US symbol",R_US,R5 R8,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,,,,RC0603FR-07120RL,,,,,,,,,
-25,"Resistor, US symbol",R_US,R1,300,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-07300RL,,,,,,,,,
-26,"Resistor, US symbol",R_US,R2,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-071KL,,,,,,,,,
-27,"Resistor, US symbol",R_US,R6 R9 R10 R11 R22 R23,4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,6, ,,,,,,,,RC0603FR-074K7L,,,,,,,,,
-28,"Resistor, US symbol",R_US,R13,8.2k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-078K2L,,,,,,,,,
-29,"Resistor, US symbol",R_US,R7 R12 R14,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,3, ,,,,,,,,RC0603FR-0710KL,,,,,,,,,
-30,"Resistor, US symbol",R_US,R15,15.4K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0715K4L,,,,,,,,,
-31,"Resistor, US symbol",R_US,R16,23.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0723K7L,,,,,,,,,
-32,"Resistor, US symbol",R_US,R17,36.5K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0736K5L,,,,,,,,,
-33,"Resistor, US symbol",R_US,R18 R19 R20 R21,54.9K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,4, ,,,,,,,,RC0603FR-0754K9L,,,,,,,,,
-34,"Resistor, US symbol",R_US,R24 R25,SR: 1m,R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,2, ,,,,,,,,WSLF25121L000FEA,,,,,,,,,
-35,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_SPST_B3U-1000P,1, ,,,,,,,,B3U-1000P,,,,,,,,,
-36,,INA237AIDGSR,U6 U7,INA237AIDGSR,TSSOP-10_3x3mm_P0.5mm,2, ,https://www.ti.com/lit/gpn/ina237,,,,,,,INA237AIDGSR,,,,,,,,,
-37,,MIC5504-3.3YM5-TR,U5,MIC5504-3.3YM5-TR,SOT-23-5,1, ,MIC5504-3.3YM5-TR,,,,,,,MIC5504-3.3YM5-TR,,,,,,,,,
-38,,STM32C542CCT6,U3,STM32C542CCT6,LQFP-48_7x7mm_P0.5mm,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,,,,STM32C542CCT6,,,,,,,,,
-39,,TCAN1044AVDRQ1,U1,TCAN1044AEV-Q1,SOIC-8_3.9x4.9mm_P1.27mm,1, ,https://www.ti.com/lit/ds/symlink/tcan1044aev-q1.pdf?ts=1718715491235&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US,,,,,,,TCAN1044AEVDRQ1,,,,,,,,,
-40,,TMP1075NDRLR,U2,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,TMP1075NDRLR,,,,,,,,,
-41,,i6A4W020A033V-005-R,U4,i6A4W020A033V-005-R,i6A4W_DIP_FULL_TDK,1, ,https://product.tdk.com/system/files/dam/doc/product/power/switching-power/dc-dc-converter/catalog/i6a4w_e.pdf,,,,,,,i6A4W020A033V-005-R,,,,,,,,,
-42,,ABM8G-16.000MHZ-18-D2Y-T,Y1,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,1, ,,,,,,,,ECS-240-8-37B-CKY-TR,,,,,,,,,
+10,Unpolarized capacitor,C,C40 C43,47u 100V,CP_Radial_D10.0mm_P5.00mm,2, ,,,,,,,,100ZLH100MEFC10X20,,,,,,,,,
+11,Unpolarized capacitor,C,C17 C23 C31 C35,100u 100V,CP_Radial_D10.0mm_P5.00mm,4, ,,,,,,,,100ZLH100MEFC10X20,,,,,,,,,
+12,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2,330u 100V,CP_Radial_D13.0mm_P5.00mm,2, ,,,,,,,,860040878008,,,,,,,,,
+13,Unpolarized capacitor,C,C25 C26 C29 C30 C36 C37 C41 C42,470u 25V,CP_Radial_D10.0mm_P5.00mm,8, ,,,,,,,,25CZJ470M10X9,,,,,,,,,
+14,Light emitting diode,LED,D4,12V,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190KRKT,1=K 2=A,,,,,,,,
+15,Light emitting diode,LED,D5,3V3,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190YKT,1=K 2=A,,,,,,,,
+16,Light emitting diode,LED,D3,5V1,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190GKT,1=K 2=A,,,,,,,,
+17,,ESD2CAN24DBZRQ1,D2,ESD2CAN24DBZRQ1,SOT-23_Handsoldering,1, ,ESD2CAN24DBZRQ1,,,,,,,ESD2CAN24DBZRQ1,,,,,,,,,
+18,"ESD Protection Diode, DO-214AB, SMC",ESD5Zxx,D1,SMCJ51A,D_SMC,1, ,https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_smcj_datasheet.pdf?assetguid=37388813-0d6d-4329-969b-1aa8b7614ac1,,,,,,,SMCJ51A,,,,,,,,,
+19,Light emitting diode,LED,D6,STM,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190GKT,1=K 2=A,,,,,,,,
+20,,796636-6,J2,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,796636-6,,,,,,,,,
+21,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J7 J8,Conn_01x02,Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal,2, ,,,,,,,,43650-0200,,,,,,,,,
+22,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J6,Conn_01x03,Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal,1, ,,,,,,,,43650-0300,,,,,,,,,
+23,,IPT1-105-01-S-D,J5,IPT1-105-01-S-D,SAMTEC_IPT1-105-01-S-D,1, ,,,,,,,,IPT1-105-01-S-D,,R,Manufacturer Recommendations,Samtec,,,,,
+24,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J9 J10 J11 J12 J13 J14 J15 J16,XT60,AMASS_XT60PB-M,8, ,,,,,,,,1568-10474-ND,,,,,,,,,
+25,"Resistor, US symbol",R_US,R5 R8,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,,,,RC0603FR-07120RL,,,,,,,,,
+26,"Resistor, US symbol",R_US,R1,300,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-07300RL,,,,,,,,,
+27,"Resistor, US symbol",R_US,R2,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-071KL,,,,,,,,,
+28,"Resistor, US symbol",R_US,R6 R9 R10 R11 R22 R23,4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,6, ,,,,,,,,RC0603FR-074K7L,,,,,,,,,
+29,"Resistor, US symbol",R_US,R13,8.2k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-078K2L,,,,,,,,,
+30,"Resistor, US symbol",R_US,R7 R12 R14,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,3, ,,,,,,,,RC0603FR-0710KL,,,,,,,,,
+31,"Resistor, US symbol",R_US,R15,15.4K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0715K4L,,,,,,,,,
+32,"Resistor, US symbol",R_US,R16,23.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0723K7L,,,,,,,,,
+33,"Resistor, US symbol",R_US,R17,36.5K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0736K5L,,,,,,,,,
+34,"Resistor, US symbol",R_US,R18 R19 R20 R21,54.9K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,4, ,,,,,,,,RC0603FR-0754K9L,,,,,,,,,
+35,"Resistor, US symbol",R_US,R24 R25,SR: 1m,R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,2, ,,,,,,,,WSLF25121L000FEA,,,,,,,,,
+36,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_SPST_B3U-1000P,1, ,,,,,,,,B3U-1000P,,,,,,,,,
+37,,INA237AIDGSR,U6 U7,INA237AIDGSR,TSSOP-10_3x3mm_P0.5mm,2, ,https://www.ti.com/lit/gpn/ina237,,,,,,,INA237AIDGSR,,,,,,,,,
+38,,MIC5504-3.3YM5-TR,U5,MIC5504-3.3YM5-TR,SOT-23-5,1, ,MIC5504-3.3YM5-TR,,,,,,,MIC5504-3.3YM5-TR,,,,,,,,,
+39,,STM32C542CCT6,U3,STM32C542CCT6,LQFP-48_7x7mm_P0.5mm,1, ,https://www.st.com/resource/en/datasheet/stm32c542cc.pdf,,,,,,,STM32C542CCT6,,,,,,,,,
+40,,TCAN1044AVDRQ1,U1,TCAN1044AEV-Q1,SOIC-8_3.9x4.9mm_P1.27mm,1, ,https://www.ti.com/lit/ds/symlink/tcan1044aev-q1.pdf?ts=1718715491235&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US,,,,,,,TCAN1044AEVDRQ1,,,,,,,,,
+41,,TMP1075NDRLR,U2,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,TMP1075NDRLR,,,,,,,,,
+42,,i6A4W020A033V-005-R,U4,i6A4W020A033V-005-R,i6A4W_DIP_FULL_TDK,1, ,https://product.tdk.com/system/files/dam/doc/product/power/switching-power/dc-dc-converter/catalog/i6a4w_e.pdf,,,,,,,i6A4W020A033V-005-R,,,,,,,,,
+43,,ABM8G-16.000MHZ-18-D2Y-T,Y1,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,1, ,,,,,,,,ECS-240-8-37B-CKY-TR,,,,,,,,,
 
 
 
@@ -50,11 +51,11 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_21-03-32
+Date:,2026-11-19_21-33-28
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,44
-Component Count:,101
-Fitted Components:,98
+Component Groups:,45
+Component Count:,102
+Fitted Components:,99
 Number of PCBs:,1
-Total Components:,98
+Total Components:,99
