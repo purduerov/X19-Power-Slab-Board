@@ -3,14 +3,14 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 2,Unpolarized capacitor,C,C10 C16,27p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603JRNPO9BN270,,,,,,,,,
 3,Unpolarized capacitor,C,C5 C6 C7 C8 C9 C11 C13 C15 C20 C43 C44,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,11, ,,,,,,,,CC0603KRX7R8BB104,,,,,,,,,
 4,Unpolarized capacitor,C,C18 C22,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603KRX5R6BB105,,,,,,,,,
-5,Unpolarized capacitor,C,C19 C24 C27 C28 C32 C33 C34 C38 C39,1u 100V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,9, ,,,,,,,,CC0805KKX7R8BB105,,,,,,,,,
+5,Unpolarized capacitor,C,C19 C24 C27 C28 C32 C33 C34 C38 C39,1u 100V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,9, ,,,,,,,,CGA4J3X7S2A105M125AE CC0805KKX7R8BB105,,,,,,,,,
 6,Unpolarized capacitor,C,C14,2.2u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,CC0603KRX5R6BB225,,,,,,,,,
 7,Unpolarized capacitor,C,C12,4.7u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,CC0603KRX5R6BB475,,,,,,,,,
-8,Unpolarized capacitor,C,C3,10u 100V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1, ,,,,,,,,,,,,,,,,,
+8,Unpolarized capacitor,C,C3,10u 100V,GMC32X7R106K100NT,1, ,Capacitor_SMD:C_1210_3225Metric,,,,,,,,,,,,,,,,
 9,Unpolarized capacitor,C,C21,22u 25V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1, ,,,,,,,,CC1206KKX5R8BB226,,,,,,,,,
-10,Unpolarized capacitor,C,C17 C23 C31 C35 C40,100u 100V,CP_Radial_D10.0mm_P5.00mm,5, ,,,,,,,,,,,,,,,,,
-11,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2,470u 100V,CP_Radial_D13.0mm_P5.00mm,2, ,,,,,,,,,,,,,,,,,
-12,Unpolarized capacitor,C,C25 C26 C29 C30 C36 C37 C41 C42,470u 25V,CP_Radial_D10.0mm_P5.00mm,8, ,,,,,,,,,,,,,,,,,
+10,Unpolarized capacitor,C,C17 C23 C31 C35 C40,100u 100V,CP_Radial_D10.0mm_P5.00mm,5, ,,,,,,,,100ZLH100MEFC10X20,,,,,,,,,
+11,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2,330u 100V,860040878008,2, ,Capacitor_THT:CP_Radial_D13.0mm_P5.00mm,,,,,,,,,,,,,,,,
+12,Unpolarized capacitor,C,C25 C26 C29 C30 C36 C37 C41 C42,470u 25V,25CZJ470M10X9,8, ,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,,,,,,,,,,,,,,,,
 13,,ESD2CAN24DBZRQ1,D2,ESD2CAN24DBZRQ1,SOT-23_Handsoldering,1, ,ESD2CAN24DBZRQ1,,,,,,,ESD2CAN24DBZRQ1,,,,,,,,,
 14,Light emitting diode,LED,D3,GREEN,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1, ,,,,,,,,LTST-C190GKT,1=K 2=A,,,,,,,,
 15,Light emitting diode,LED,D6,GREEN,LED_0603_1608Metric,1, ,,,,,,,,LTST-C190GKT,1=K 2=A,,,,,,,,
@@ -32,7 +32,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 31,"Resistor, US symbol",R_US,R16,23.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0723K7L,,,,,,,,,
 32,"Resistor, US symbol",R_US,R17,36.5K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-0736K5L,,,,,,,,,
 33,"Resistor, US symbol",R_US,R18 R19 R20 R21,54.9K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,4, ,,,,,,,,RC0603FR-0754K9L,,,,,,,,,
-34,"Resistor, US symbol",R_US,R24 R25,SR: 1m,R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,2, ,,,,,,,,,,,,,,,,,
+34,"Resistor, US symbol",R_US,R24 R25,SR: 1m,R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,2, ,,,,,,,,WSLF25121L000FEA,,,,,,,,,
 35,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_SPST_B3U-1000P,1, ,,,,,,,,B3U-1000P,,,,,,,,,
 36,,INA237AIDGSR,U6 U7,INA237AIDGSR,TSSOP-10_3x3mm_P0.5mm,2, ,https://www.ti.com/lit/gpn/ina237,,,,,,,INA237AIDGSR,,,,,,,,,
 37,,MIC5504-3.3YM5-TR,U5,MIC5504-3.3YM5-TR,SOT-23-5,1, ,MIC5504-3.3YM5-TR,,,,,,,MIC5504-3.3YM5-TR,,,,,,,,,
@@ -50,7 +50,7 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_00-25-35
+Date:,2026-11-19_00-42-07
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,44
