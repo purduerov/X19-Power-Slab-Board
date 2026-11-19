@@ -3683,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ABM8G-16.000MHZ-18-D2Y-T"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3795,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ABM8G-16.000MHZ-18-D2Y-T"
+		(property "Part Number" "ECS-240-8-37B-CKY-TR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4487,7 +4487,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CC0603JRNPO9BN270"
+		(property "Part Number" "CC0603DRNPO9BN8R0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10215,7 +10215,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cc9f5fd5-db6e-4248-9baa-c5acac030759")
+			(uuid "89218b5b-3838-45ba-b59c-88d944bcbecf")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10227,7 +10227,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bd8acad3-6cac-41d7-8f90-5e4418e81c58")
+			(uuid "9217232f-1e8d-465b-a1c3-ae3d329a4044")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -10239,7 +10239,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d622498-5669-4672-bd65-1e3df172fee4")
+			(uuid "41c982b5-f542-4f7b-8ffe-02fda278ade7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10250,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ff7fc50-96c6-4821-a53d-fb3cd2aa5aa9")
+			(uuid "d3e3bc49-ec03-4b53-9aaa-3779f057d101")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48426,7 +48426,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CC0603JRNPO9BN270"
+		(property "Part Number" "CC0603DRNPO9BN8R0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121877,7 +121877,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "e2e4009a-599e-485d-b0f6-6ea42592984a")
-		(at 144 98.75)
+		(at 141.8 95.95)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -126368,7 +126368,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3dd47ce2-aa70-45dc-887d-9697aea7e366")
+			(uuid "4f7d744a-1846-4b77-b719-4c72c8fd9c97")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -126380,7 +126380,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "018d0138-cbfb-4d13-bbee-0bca600f2881")
+			(uuid "83aa7b30-500e-49ce-b69b-05cae8c7042f")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -126392,7 +126392,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e160a63-cdc1-4770-9361-9cd2daa9a3bc")
+			(uuid "a971d99d-b8cc-40e3-9ce3-ebf9276e1722")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126403,7 +126403,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac0c6b4f-94a6-496a-9297-5ac88526197b")
+			(uuid "aa039362-9625-430c-8fe9-62ca1d88e5a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131935,18 +131935,6 @@
 			(layer "B.Fab")
 			(uuid "118441b1-9e19-48a6-aba3-c741a0ed2a7c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 26.9 -7.64 90)
-			(layer "B.Fab")
-			(uuid "098ca495-fa7e-485f-96f0-fd50a8f70e7c")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.2)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 2.4 2.4)
@@ -132499,18 +132487,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "eccb175a-7dff-4168-8cc2-1d4ecaf19cbe")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 26.9 -7.64 90)
-			(layer "B.Fab")
-			(uuid "c27888c7-ff11-409f-ae83-d969806d36cc")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.2)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
@@ -133068,7 +133044,7 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 26.9 -7.64 90)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "f3b4a49c-aafa-4ac9-820b-3b207fef595a")
 			(effects
 				(font
@@ -133630,18 +133606,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "12057b40-73b7-4b68-84cc-b16581fb8660")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 26.9 -7.64 90)
-			(layer "B.Fab")
-			(uuid "50d2984d-b462-4226-83cd-e7352f408a29")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.2)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
@@ -134325,30 +134289,6 @@
 		(layer "Edge.Cuts")
 		(uuid "1ff20cf3-0a31-4e69-bf84-df419f2924bb")
 	)
-	(gr_text "Sahil Mitra\nCompE '27\n\n{dblquote}tell chat make a \nquote that i did \nhella work or something\nmotivational like \nthat{dblquote}"
-		(at 90.92 113.94 0)
-		(layer "F.SilkS")
-		(uuid "68ebbaf1-a26a-4145-8407-1951be7cf46e")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "Jason Lyst \nCompE '27"
-		(at 114.15 107.28 0)
-		(layer "F.SilkS")
-		(uuid "682baba6-8b89-4b55-b3cb-04568b52ef30")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify bottom)
-		)
-	)
 	(gr_text "I2C DEBUG"
 		(at 83.9 57.55 0)
 		(layer "F.SilkS")
@@ -134451,6 +134391,32 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Sahil Mitra\nCompE '27"
+		(at 91.35 106.6 0)
+		(layer "F.SilkS")
+		(uuid "68ebbaf1-a26a-4145-8407-1951be7cf46e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Jason Lyst \nCompE '27"
+		(at 113.9 107.45 0)
+		(layer "F.SilkS")
+		(uuid "682baba6-8b89-4b55-b3cb-04568b52ef30")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "CANH\n\nCANL\n\n5V\n\nGND"

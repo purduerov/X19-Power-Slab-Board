@@ -5537,7 +5537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ABM8G-16.000MHZ-18-D2Y-T"
+		(property "Datasheet" ""
 			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5626,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ABM8G-16.000MHZ-18-D2Y-T"
+		(property "Part Number" "ECS-240-8-37B-CKY-TR"
 			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5892,7 +5892,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CC0603JRNPO9BN270"
+		(property "Part Number" "CC0603DRNPO9BN8R0"
 			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CC0603JRNPO9BN270"
+		(property "Part Number" "CC0603DRNPO9BN8R0"
 			(at 255.27 121.92 0)
 			(hide yes)
 			(show_name no)
