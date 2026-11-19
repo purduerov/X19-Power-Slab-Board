@@ -7564,7 +7564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf0c631-acce-4371-802f-4537f767efc0")
-		(property "Reference" "D6"
+		(property "Reference" "STM"
 			(at 128.27 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +7716,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "D6")
+					(reference "STM")
 					(unit 1)
 				)
 			)

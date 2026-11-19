@@ -1957,7 +1957,7 @@
 	)
 	(rectangle
 		(start 96.52 24.13)
-		(end 172.72 127)
+		(end 175.26 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -2313,6 +2313,12 @@
 		(uuid "62d39e35-f55c-4a3a-9ef5-6832f1d434e4")
 	)
 	(junction
+		(at 161.29 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639d8f16-943e-43ef-8cc3-0ce170b5ad83")
+	)
+	(junction
 		(at 147.32 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,6 +2419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca2191eb-ded9-42a0-a17e-e9755d0eae4b")
+	)
+	(junction
+		(at 161.29 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d171016f-6c99-49cd-9d43-b2b8f6093ac0")
 	)
 	(junction
 		(at 149.86 97.79)
@@ -3158,6 +3170,16 @@
 		)
 		(uuid "a54f1242-91b0-4488-bf7d-f9ce195834ef")
 	)
+	(wire
+		(pts
+			(xy 161.29 30.48) (xy 171.45 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e2ed52-33fd-4d57-80a2-4a8c940730ba")
+	)
 	(polyline
 		(pts
 			(xy 96.52 63.5) (xy 172.72 63.5)
@@ -3417,6 +3439,16 @@
 			(type default)
 		)
 		(uuid "e6c0ca9e-fdcd-45cb-9d2f-8f7b930b6963")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e724c53c-e619-45c4-a52b-6e90d5a210e5")
 	)
 	(wire
 		(pts
@@ -9667,10 +9699,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c8f8de0-e2b3-4a8c-9385-8766815034c9")
 		(property "Reference" "C40"
-			(at 165.1 33.0199 0)
+			(at 157.48 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9680,8 +9711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 100V"
-			(at 165.1 35.5599 0)
+		(property "Value" "47u 100V"
+			(at 157.48 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11771,6 +11802,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 171.45 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3393d90-eaf8-417f-9e72-02d0e2544b09")
+		(property "Reference" "C45"
+			(at 168.91 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u 100V"
+			(at 165.1 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 172.4152 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "100ZLH100MEFC10X20"
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 171.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0069687d-8843-4706-8a30-3a06e224accc")
+		)
+		(pin "2"
+			(uuid "34c6e1b6-5828-4199-84f7-9630988b92a6")
+		)
+		(instances
+			(project "X19-Power-Slab-Board"
+				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "E48SC12030NRFH:E48SC12030NRFH")
 		(at 199.39 105.41 0)
 		(unit 1)
@@ -13275,10 +13464,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d04acf2c-6164-4a03-88f2-9a95f54dab7f")
 		(property "Reference" "C35"
-			(at 151.13 33.0199 0)
+			(at 149.86 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13289,7 +13477,7 @@
 			)
 		)
 		(property "Value" "100u 100V"
-			(at 151.13 35.5599 0)
+			(at 149.86 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
