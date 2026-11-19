@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Purdue ROV Subsystem Board")
+		(title "X19-Power-Slab-Board")
 		(company "Purdue ROV")
 	)
 	(layers
