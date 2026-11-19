@@ -1,6 +1,6 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,AVAILABILITY,MAXIMUM_PACKAGE_HEIGHT,MF,MP,PACKAGE,PRICE,Part Number,Sim.Pins,PARTREV,STANDARD,MANUFACTURER,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name,Manufacturer_Part_Number
 1,"Isolated DC/DC Converters - Through Hole DC/DC Converter, 1/8 Brick, 12Vout, 30A",E48SC12030NRFH,B1 B2 B3 B4,E48SC12030NRFH,E48SC12030NRFH,4, ,https://filecenter.deltaww.com/products/download/01/0102/datasheet/DS_E48SC12030.pdf,,,,,,,E48SC12030NRFH,,,,,13.2,,,Delta Electronics,E48SC12030NRFH
-2,Unpolarized capacitor,C,C10 C16,8p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603JRNPO9BN270,,,,,,,,,
+2,Unpolarized capacitor,C,C10 C16,8p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603DRNPO9BN8R0,,,,,,,,,
 3,Unpolarized capacitor,C,C5 C6 C7 C8 C9 C11 C13 C15 C20 C43 C44,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,11, ,,,,,,,,CC0603KRX7R8BB104,,,,,,,,,
 4,Unpolarized capacitor,C,C18 C22,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,,,,CC0603KRX5R6BB105,,,,,,,,,
 5,Unpolarized capacitor,C,C19 C24 C27 C28 C32 C33 C34 C38 C39,1u 100V,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,9, ,,,,,,,,CGA4J3X7S2A105M125AE CC0805KKX7R8BB105,,,,,,,,,
@@ -40,7 +40,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 39,,TCAN1044AVDRQ1,U1,TCAN1044AEV-Q1,SOIC-8_3.9x4.9mm_P1.27mm,1, ,https://www.ti.com/lit/ds/symlink/tcan1044aev-q1.pdf?ts=1718715491235&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US,,,,,,,TCAN1044AEVDRQ1,,,,,,,,,
 40,,TMP1075NDRLR,U2,TMP1075NDRLR,SOT5X3-6_DRL_TEX,1, ,https://www.ti.com/lit/gpn/tmp1075,,,,,,,TMP1075NDRLR,,,,,,,,,
 41,,i6A4W020A033V-005-R,U4,i6A4W020A033V-005-R,i6A4W_DIP_FULL_TDK,1, ,https://product.tdk.com/system/files/dam/doc/product/power/switching-power/dc-dc-converter/catalog/i6a4w_e.pdf,,,,,,,i6A4W020A033V-005-R,,,,,,,,,
-42,,ABM8G-16.000MHZ-18-D2Y-T,Y1,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,1, ,ABM8G-16.000MHZ-18-D2Y-T,,,,,,,ABM8G-16.000MHZ-18-D2Y-T,,,,,,,,,
+42,,ABM8G-16.000MHZ-18-D2Y-T,Y1,ECS-240-8-37B-CKY-TR,Crystal_SMD_2016-4Pin_2.0x1.6mm,1, ,,,,,,,,ECS-240-8-37B-CKY-TR,,,,,,,,,
 
 
 
@@ -50,7 +50,7 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_01-15-10
+Date:,2026-11-19_01-40-18
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,44
