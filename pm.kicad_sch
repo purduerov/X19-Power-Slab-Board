@@ -1882,7 +1882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1112a62e-e3c8-422e-b122-7dd054c105d4")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0122"
 			(at 119.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1942,7 +1942,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0117")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -1959,7 +1959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1839fb59-7a4f-4e2f-83a6-1faa422c384b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0123"
 			(at 123.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2019,7 +2019,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0118")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -2194,7 +2194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "290c4817-78f4-4686-b0a1-c69b8f7c62b0")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0121"
 			(at 115.57 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2254,7 +2254,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0116")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -2272,7 +2272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ef2430b-6169-4dad-8cf4-0d2054d1fd9d")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0125"
 			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2332,7 +2332,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0120")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dc409e7-ce1a-41e8-8f24-3f2592d8e606")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0128"
 			(at 172.72 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0123")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -2927,7 +2927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77c995e5-7879-43b1-8f56-310d68e484b5")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0120"
 			(at 111.76 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2987,7 +2987,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0115")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bea176f-a4c1-4b46-ac4a-a2b6bc511728")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0131"
 			(at 172.72 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3065,7 +3065,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0126")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ffcfb27-7f17-4828-87b7-d9e5210eb857")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0132"
 			(at 180.34 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3142,7 +3142,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0127")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -3317,7 +3317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9efb6817-67cb-4ae6-8f79-701dc63f46b8")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0133"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3377,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0128")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5ac0d20-76dc-49ee-81a3-b88bbb09de15")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0127"
 			(at 162.56 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3454,7 +3454,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0122")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a890e812-0c71-45c4-ba81-505dd8313137")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0130"
 			(at 172.72 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3531,7 +3531,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0125")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b276af18-28bb-44ed-9688-171d8438f6c2")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0119"
 			(at 111.76 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3608,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0114")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3625,7 +3625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7a3f226-8518-4c20-8e91-f1170a9c581b")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0126"
 			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3685,7 +3685,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0121")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3703,7 +3703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3553140-c890-4a66-bb1e-8a38213a2164")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0129"
 			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3763,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0124")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -3939,7 +3939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee5e7f39-bdb6-4d19-bef4-b51e7cefa2dd")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0124"
 			(at 162.56 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3999,7 +3999,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "#PWR0119")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)

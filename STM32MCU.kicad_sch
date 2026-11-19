@@ -2785,17 +2785,6 @@
 		)
 		(uuid "3f8af44f-000e-4aea-8262-4e682d56faac")
 	)
-	(text "Change to 16MHz osillator \n\nchange capacitances to what is nededed check datasheet\n\n- Nick"
-		(exclude_from_sim no)
-		(at 222.25 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 13 1)
-			)
-		)
-		(uuid "5d043ef1-153f-4fc9-9e5f-ebed23e9d74c")
-	)
 	(text "Debugging / Programming Header (ST-LINK)"
 		(exclude_from_sim no)
 		(at 207.772 64.77 0)
@@ -2816,7 +2805,7 @@
 		)
 		(uuid "66d9935e-13f7-4b48-abae-3d8b38c19f5b")
 	)
-	(text "STM 16MHz Oscillator"
+	(text "STM 24MHz Oscillator"
 		(exclude_from_sim no)
 		(at 187.96 104.14 0)
 		(effects
@@ -4354,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ae8586-726e-4739-8054-0e3089de0ec1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 121.92 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4414,7 +4403,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR050")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aeecbc6-0334-4083-ac7f-3a9d0b1cb3de")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5420,7 +5409,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5438,7 +5427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5067e9ee-5fdd-4c9b-8b34-e83417034640")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 266.7 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +5487,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5526,7 +5515,7 @@
 				)
 			)
 		)
-		(property "Value" "ABM8G-16.000MHZ-18-D2Y-T"
+		(property "Value" "ECS-240-8-37B-CKY-TR"
 			(at 229.87 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5536,7 +5525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5681,7 +5670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679e247b-b1eb-4140-8a14-603b3f9de80f")
-		(property "Reference" "J14"
+		(property "Reference" "J17"
 			(at 214.63 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5831,7 +5820,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "J14")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5859,7 +5848,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "8p"
 			(at 204.47 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1cf345-167c-43b6-8d8f-3bd733a7a75b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR056"
 			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6223,7 +6212,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6398,7 +6387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "966a1f45-66e9-421e-88b4-0a54c9b8104b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR057"
 			(at 135.89 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6458,7 +6447,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR052")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6475,7 +6464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a09e90bb-ac4b-41ba-ba50-af1140b9f435")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 251.46 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6535,7 +6524,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6552,7 +6541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a23b14d6-5e70-4a49-aba0-7493c8f70957")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR062"
 			(at 212.09 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6601,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7103,7 +7092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba9c8c22-1c3b-4c1b-84d5-a20ed87cdd2f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7163,7 +7152,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7339,7 +7328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c96b7914-ff96-4e78-a168-05d6f7789347")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 241.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7399,7 +7388,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7744,7 +7733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db44fa37-9649-4223-8452-00a05f31bb7b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR060"
 			(at 207.01 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7804,7 +7793,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR055")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7822,7 +7811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e082be26-29ee-4019-bdb6-78a64d13dcf0")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7882,7 +7871,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8059,7 +8048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8836c1b-c410-45d7-b3bb-34c00695bfd9")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR058"
 			(at 199.39 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8108,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8136,7 +8125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9c4291f-83b7-4a60-8425-016410e77767")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 77.47 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8196,7 +8185,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8224,7 +8213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "8p"
 			(at 247.904 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8371,7 +8360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1673ab0-0cbb-4da9-b4d0-2958435bf149")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 212.09 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8431,7 +8420,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8606,7 +8595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9cd05da-02cb-4ffc-b81b-7602e030a051")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 207.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8666,7 +8655,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
