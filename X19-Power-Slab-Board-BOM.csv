@@ -8,7 +8,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 7,Unpolarized capacitor,C,C12,4.7u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,,,,CC0603KRX5R6BB475,,,,,,,,,
 8,Unpolarized capacitor,C,C3,10u 100V,C_1210_3225Metric,1, ,,,,,,,,GMC32X7R106K100NT,,,,,,,,,
 9,Unpolarized capacitor,C,C21,22u 25V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1, ,,,,,,,,CC1206KKX5R8BB226,,,,,,,,,
-10,Unpolarized capacitor,C,C40 C43,47u 100V,CP_Radial_D10.0mm_P5.00mm,2, ,,,,,,,,100ZLH100MEFC10X20,,,,,,,,,
+10,Unpolarized capacitor,C,C40 C43,47u 100V,CP_Radial_D10.0mm_P5.00mm,2, ,,,,,,,,UVZ2A470MPD,,,,,,,,,
 11,Unpolarized capacitor,C,C17 C23 C31 C35,100u 100V,CP_Radial_D10.0mm_P5.00mm,4, ,,,,,,,,100ZLH100MEFC10X20,,,,,,,,,
 12,"Polarized capacitor, small US symbol",C_Polarized_Small_US,C1 C2,330u 100V,CP_Radial_D13.0mm_P5.00mm,2, ,,,,,,,,860040878008,,,,,,,,,
 13,Unpolarized capacitor,C,C25 C26 C29 C30 C36 C37 C41 C42,470u 25V,CP_Radial_D10.0mm_P5.00mm,8, ,,,,,,,,25CZJ470M10X9,,,,,,,,,
@@ -51,7 +51,7 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_21-51-17
+Date:,2026-11-19_22-02-01
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
 Component Groups:,45
