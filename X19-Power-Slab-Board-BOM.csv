@@ -21,7 +21,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 20,,796636-6,J2,796636-6,CON6_P5MM_VER_TERM-BLK_TYC,1, ,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=796636-6&DocFormat=pdf,,,,,,,796636-6,,,,,,,,,
 21,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J7 J8,Conn_01x02,Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal,2, ,,,,,,,,43650-0200,,,,,,,,,
 22,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J6,Conn_01x03,Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal,1, ,,,,,,,,43650-0300,,,,,,,,,
-23,,IPT1-105-01-S-D,J5,IPT1-105-01-S-D,SAMTEC_IPT1-105-01-S-D,1, ,,,,,,,,IPT1-105-01-S-D,,R,Manufacturer Recommendations,Samtec,,,,,
+23,,IPT1-105-01-S-D,J5,IPT1-105-03-L-D,SAMTEC_IPT1-105-01-S-D,1, ,,,,,,,,IPT1-105-03-L-D,,R,Manufacturer Recommendations,Samtec,,,,,
 24,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J9 J10 J11 J12 J13 J14 J15 J16,XT60,AMASS_XT60PB-M,8, ,,,,,,,,1568-10474-ND,,,,,,,,,
 25,"Resistor, US symbol",R_US,R5 R8,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,,,,RC0603FR-07120RL,,,,,,,,,
 26,"Resistor, US symbol",R_US,R1,300,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,,,,RC0603FR-07300RL,,,,,,,,,
@@ -51,11 +51,11 @@ Project info:
 Schematic:,X19-Power-Slab-Board
 Variant:,default
 Revision:,
-Date:,2026-11-19_22-46-41
+Date:,2026-11-19_22-51-26
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,45
-Component Count:,102
+Component Groups:,43
+Component Count:,99
 Fitted Components:,99
 Number of PCBs:,1
 Total Components:,99
