@@ -7564,7 +7564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf0c631-acce-4371-802f-4537f767efc0")
-		(property "Reference" "STM"
+		(property "Reference" "D6"
 			(at 128.27 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7575,7 +7575,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "STM"
 			(at 128.27 100.6474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7586,7 +7586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7716,7 +7716,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/9cedee09-c06b-48cb-af3a-8d02fe17e5cc"
-					(reference "STM")
+					(reference "D6")
 					(unit 1)
 				)
 			)

@@ -122,19 +122,27 @@
           ""
         ],
         [
+          "pth_inside_courtyard|171600000|108350000|827c2a93-57a7-47eb-9a76-d5b8026b4715|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|171600000|113350000|595e52f4-1a8f-4472-9415-9ee0c8a8cd85|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
+          ""
+        ],
+        [
           "pth_inside_courtyard|177367677|76500000|e24682ff-7ea7-45c6-9410-f9f977839749|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
           ""
         ],
         [
-          "pth_inside_courtyard|182000000|107500000|0157dbca-43d3-4f8e-b336-b8d283670610|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
-          ""
-        ],
-        [
-          "pth_inside_courtyard|182000000|112500000|b6acb605-c60c-4552-882d-e3033f5540e7|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
-          ""
-        ],
-        [
           "pth_inside_courtyard|182367677|76500000|b2e1e62a-eecd-4478-881a-6e990bafd5a0|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|182620000|108300000|0157dbca-43d3-4f8e-b336-b8d283670610|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|182620000|113300000|b6acb605-c60c-4552-882d-e3033f5540e7|29c2843e-20a8-4cfb-a5b4-1588d7fb1976",
           ""
         ],
         [
@@ -977,7 +985,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "Yd1,5.1V1,B1-5,#FLG1-7,PS1,48V1,R1-33,H1-5,U1-10,SW1,C1-45,C47-48,D1-6,#PWR1-133,3.3V1,GND1,Y1-3,TP1-9,CR1-2,12V1,PG1-4,Q1,J1-20",
+    "used_designators": "STM1,3V1,Yd1,12V_B1,J1-20,5.1V1,B1-5,#FLG1-7,PG1-4,PS1,48V1,R1-33,H1-5,U1-10,SW1,C1-45,C47-48,#PWR1-133,D1-6,3.3V1,GND1,Y1-3,TP1-9,CR1-2,12V1,Q1",
     "variants": []
   },
   "sheets": [

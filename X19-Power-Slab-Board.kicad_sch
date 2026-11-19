@@ -9482,7 +9482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4123abdd-afb6-421a-b7a5-32883a1a3853")
-		(property "Reference" "3V3"
+		(property "Reference" "D5"
 			(at 156.21 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9493,7 +9493,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
+		(property "Value" "3V3"
 			(at 156.21 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,7 +9634,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "3V3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10856,7 +10856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ef59f4-5b5e-4356-b454-e09f07b9d222")
-		(property "Reference" "12V_B4"
+		(property "Reference" "D4"
 			(at 142.24 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10867,7 +10867,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "12V"
 			(at 142.24 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11008,7 +11008,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "12V_B4")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15826,7 +15826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5066c5f-0cfd-4765-86cb-dd5248fc5720")
-		(property "Reference" "5.1V"
+		(property "Reference" "D3"
 			(at 127 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15837,7 +15837,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "5V1"
 			(at 127 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15978,7 +15978,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b"
-					(reference "5.1V")
+					(reference "D3")
 					(unit 1)
 				)
 			)

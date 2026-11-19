@@ -2350,7 +2350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c02aa56-c651-4983-aaa9-ac107db952a5")
-		(property "Reference" "C44"
+		(property "Reference" "C45"
 			(at 158.75 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +2491,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "C44")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55489c5e-079b-4438-a9fc-df5ef5a9416f")
-		(property "Reference" "C43"
+		(property "Reference" "C44"
 			(at 158.75 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,7 +2910,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/bbc862bf-048a-4900-acb1-a8352275c096"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 			)

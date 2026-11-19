@@ -11812,7 +11812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3393d90-eaf8-417f-9e72-02d0e2544b09")
-		(property "Reference" "C45"
+		(property "Reference" "C43"
 			(at 168.91 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +11953,7 @@
 		(instances
 			(project "X19-Power-Slab-Board"
 				(path "/00000000-0000-0000-0000-000060e6118b/40111513-3970-440d-907d-e16164745ccd"
-					(reference "C45")
+					(reference "C43")
 					(unit 1)
 				)
 			)
