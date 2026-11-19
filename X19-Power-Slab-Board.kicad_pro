@@ -985,7 +985,7 @@
         "uuid": "00000000-0000-0000-0000-000060e6118b"
       }
     ],
-    "used_designators": "STM1,3V1,Yd1,12V_B1,J1-20,5.1V1,B1-5,#FLG1-7,PG1-4,PS1,48V1,R1-33,H1-5,U1-10,SW1,C1-45,C47-48,#PWR1-133,D1-6,3.3V1,GND1,Y1-3,TP1-9,CR1-2,12V1,Q1",
+    "used_designators": "Yd1,Y1-3,#PWR1-133,D1-6,3V1,3.3V1,GND1,STM1,J1-20,5.1V1,B1-5,12V_B1,H1-5,R1-33,PG1-4,PS1,48V1,#FLG1-7,C1-45,C47-48,SW1,U1-10,TP1-9,12V1,CR1-2,Q1",
     "variants": []
   },
   "sheets": [

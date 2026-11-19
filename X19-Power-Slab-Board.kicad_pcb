@@ -47981,7 +47981,7 @@
 				)
 			)
 		)
-		(property "Part Number" "100ZLH100MEFC10X20"
+		(property "Part Number" "UVZ2A470MPD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -115954,7 +115954,7 @@
 				)
 			)
 		)
-		(property "Part Number" "100ZLH100MEFC10X20"
+		(property "Part Number" "UVZ2A470MPD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

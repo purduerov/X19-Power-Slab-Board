@@ -2082,9 +2082,9 @@
 		)
 		(uuid "7f66bbe7-9515-4f9b-a27b-811b72bf5cae")
 	)
-	(text "Low ESR 63V\nElectrolytic \n(VIN+/VIN-)"
+	(text "Low ESR 100V Electrolytic (VIN+/VIN-)"
 		(exclude_from_sim no)
-		(at 106.68 34.29 0)
+		(at 139.954 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 	)
 	(text "INPUT"
 		(exclude_from_sim no)
-		(at 102.87 27.94 0)
+		(at 114.808 27.686 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2188,17 +2188,6 @@
 			)
 		)
 		(uuid "e6ae6cbb-fbd4-472d-94e2-c576a3952c04")
-	)
-	(text "Can drop down to 63V,\nideally would be 100V\nkeep 63V if its too big\n(USE 63V)\n"
-		(exclude_from_sim no)
-		(at 147.32 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 23 1)
-			)
-		)
-		(uuid "e74af5fa-0fbc-4fb3-b57c-5606be3dc957")
 	)
 	(text "I2C Address: \n0x23 (Hex)"
 		(exclude_from_sim no)
@@ -2265,13 +2254,13 @@
 		(uuid "3ee41a7d-524b-40b8-a87b-4a2b5bfdd528")
 	)
 	(junction
-		(at 147.32 30.48)
+		(at 134.62 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50dea483-866d-4d51-a01f-1e97ae53440e")
 	)
 	(junction
-		(at 133.35 30.48)
+		(at 120.65 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "535d7a23-6b1a-400e-bc10-1b711d8c85dc")
@@ -2313,13 +2302,7 @@
 		(uuid "62d39e35-f55c-4a3a-9ef5-6832f1d434e4")
 	)
 	(junction
-		(at 161.29 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "639d8f16-943e-43ef-8cc3-0ce170b5ad83")
-	)
-	(junction
-		(at 147.32 38.1)
+		(at 134.62 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "648a099b-1edc-4e20-a20a-931b0b032fea")
@@ -2355,13 +2338,19 @@
 		(uuid "852fff0c-0214-45df-9046-d5e243b9e333")
 	)
 	(junction
+		(at 148.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "876d36f7-d169-4d96-8d3d-9876f979896f")
+	)
+	(junction
 		(at 130.81 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87928431-6e96-46fe-9322-5fe4103dbd23")
 	)
 	(junction
-		(at 119.38 30.48)
+		(at 106.68 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d27c489-d905-4bd3-be84-2aeaf036e173")
@@ -2377,6 +2366,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9dbcec1-32d8-4285-b4fd-c8749b75cad4")
+	)
+	(junction
+		(at 148.59 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab2028d1-b7c5-4d4a-99bf-d278bf49cbb6")
 	)
 	(junction
 		(at 22.86 134.62)
@@ -2397,7 +2392,7 @@
 		(uuid "add0a1dd-2e10-4191-993e-3cc45ab48c8f")
 	)
 	(junction
-		(at 133.35 38.1)
+		(at 120.65 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8629be6-fce1-4078-bb4d-70ae7edd0538")
@@ -2421,12 +2416,6 @@
 		(uuid "ca2191eb-ded9-42a0-a17e-e9755d0eae4b")
 	)
 	(junction
-		(at 161.29 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d171016f-6c99-49cd-9d43-b2b8f6093ac0")
-	)
-	(junction
 		(at 149.86 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2439,7 +2428,7 @@
 		(uuid "d911ca70-9ba2-40ed-9846-984aea553e7a")
 	)
 	(junction
-		(at 119.38 38.1)
+		(at 106.68 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc6259b9-f5bc-4fcd-b8de-16c0154ed45c")
@@ -2522,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 38.1) (xy 147.32 38.1)
+			(xy 120.65 38.1) (xy 134.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 30.48) (xy 147.32 30.48)
+			(xy 120.65 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 30.48) (xy 161.29 30.48)
+			(xy 134.62 30.48) (xy 148.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 30.48) (xy 133.35 30.48)
+			(xy 106.68 30.48) (xy 120.65 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 30.48) (xy 171.45 30.48)
+			(xy 148.59 30.48) (xy 161.29 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 38.1) (xy 161.29 38.1)
+			(xy 134.62 38.1) (xy 148.59 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3442,7 +3431,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 38.1) (xy 171.45 38.1)
+			(xy 148.59 38.1) (xy 161.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 38.1) (xy 133.35 38.1)
+			(xy 106.68 38.1) (xy 120.65 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8651,7 +8640,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 34.29 0)
+		(at 106.68 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8662,7 +8651,7 @@
 		(fields_autoplaced yes)
 		(uuid "652cc618-8d9c-4f92-b520-5db85e96dba7")
 		(property "Reference" "C23"
-			(at 123.19 33.0199 0)
+			(at 110.49 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8673,7 +8662,7 @@
 			)
 		)
 		(property "Value" "100u 100V"
-			(at 123.19 35.5599 0)
+			(at 110.49 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8684,7 +8673,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 120.3452 38.1 0)
+			(at 107.6452 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8695,7 +8684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8706,7 +8695,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,7 +8706,7 @@
 			)
 		)
 		(property "Part Number" "100ZLH100MEFC10X20"
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8728,7 +8717,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,7 +8728,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8750,7 +8739,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,7 +8750,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +8761,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8783,7 +8772,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9691,7 +9680,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 34.29 0)
+		(at 148.59 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9701,7 +9690,7 @@
 		(dnp no)
 		(uuid "7c8f8de0-e2b3-4a8c-9385-8766815034c9")
 		(property "Reference" "C40"
-			(at 157.48 26.67 0)
+			(at 151.384 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9712,7 +9701,7 @@
 			)
 		)
 		(property "Value" "47u 100V"
-			(at 157.48 29.21 0)
+			(at 151.638 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9723,7 +9712,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 162.2552 38.1 0)
+			(at 149.5552 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9734,7 +9723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9745,7 +9734,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9755,8 +9744,8 @@
 				)
 			)
 		)
-		(property "Part Number" "100ZLH100MEFC10X20"
-			(at 161.29 34.29 0)
+		(property "Part Number" "UVZ2A470MPD"
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9767,7 +9756,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9778,7 +9767,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9778,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9800,7 +9789,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9811,7 +9800,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9822,7 +9811,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 161.29 34.29 0)
+			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10397,7 +10386,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 34.29 0)
+		(at 120.65 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10408,7 +10397,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f680330-046e-4d8e-a476-b1852fa84d58")
 		(property "Reference" "C31"
-			(at 137.16 33.0199 0)
+			(at 124.46 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10419,7 +10408,7 @@
 			)
 		)
 		(property "Value" "100u 100V"
-			(at 137.16 35.5599 0)
+			(at 124.46 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10430,7 +10419,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 134.3152 38.1 0)
+			(at 121.6152 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10441,7 +10430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10452,7 +10441,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10463,7 +10452,7 @@
 			)
 		)
 		(property "Part Number" "100ZLH100MEFC10X20"
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,7 +10463,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +10474,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10496,7 +10485,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10507,7 +10496,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10507,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10518,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 133.35 34.29 0)
+			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11479,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 119.38 30.48 0)
+		(at 106.68 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11500,7 +11489,7 @@
 		(dnp no)
 		(uuid "b25219cd-6727-4f59-a25b-b79d5fa54f5b")
 		(property "Reference" "#PWR079"
-			(at 119.38 34.29 0)
+			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,7 +11500,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 119.38 26.67 0)
+			(at 106.68 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11521,7 +11510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 30.48 0)
+			(at 106.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11532,7 +11521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 30.48 0)
+			(at 106.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,7 +11532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 119.38 30.48 0)
+			(at 106.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11803,7 +11792,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 34.29 0)
+		(at 161.29 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11813,7 +11802,7 @@
 		(dnp no)
 		(uuid "b3393d90-eaf8-417f-9e72-02d0e2544b09")
 		(property "Reference" "C43"
-			(at 168.91 29.21 0)
+			(at 163.576 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11824,7 +11813,7 @@
 			)
 		)
 		(property "Value" "47u 100V"
-			(at 165.1 39.37 0)
+			(at 163.83 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11835,7 +11824,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 172.4152 38.1 0)
+			(at 162.2552 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11846,7 +11835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11846,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11867,8 +11856,8 @@
 				)
 			)
 		)
-		(property "Part Number" "100ZLH100MEFC10X20"
-			(at 171.45 34.29 0)
+		(property "Part Number" "UVZ2A470MPD"
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11879,7 +11868,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11890,7 +11879,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11901,7 +11890,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11912,7 +11901,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +11912,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11934,7 +11923,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 171.45 34.29 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +13445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 34.29 0)
+		(at 134.62 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13466,7 +13455,7 @@
 		(dnp no)
 		(uuid "d04acf2c-6164-4a03-88f2-9a95f54dab7f")
 		(property "Reference" "C35"
-			(at 149.86 33.02 0)
+			(at 137.16 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13477,7 +13466,7 @@
 			)
 		)
 		(property "Value" "100u 100V"
-			(at 149.86 35.56 0)
+			(at 137.16 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13488,7 +13477,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 148.2852 38.1 0)
+			(at 135.5852 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13499,7 +13488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13510,7 +13499,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13521,7 +13510,7 @@
 			)
 		)
 		(property "Part Number" "100ZLH100MEFC10X20"
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13532,7 +13521,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13543,7 +13532,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13554,7 +13543,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13565,7 +13554,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13576,7 +13565,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13587,7 +13576,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 147.32 34.29 0)
+			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15186,7 +15175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 38.1 0)
+		(at 106.68 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15196,7 +15185,7 @@
 		(dnp no)
 		(uuid "f29f2c5c-7e6a-4010-8c28-bf44d9ecd83c")
 		(property "Reference" "#PWR080"
-			(at 119.38 44.45 0)
+			(at 106.68 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15207,7 +15196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 41.91 0)
+			(at 106.68 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15217,7 +15206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15228,7 +15217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15239,7 +15228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
