@@ -11585,7 +11585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u 100V"
+		(property "Value" "330u 100V"
 			(at 54.61 37.6681 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11594,6 +11594,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "860040878008"
+			(at 52.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
@@ -15336,7 +15347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u 100V"
+		(property "Value" "330u 100V"
 			(at 38.1 37.6681 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15345,6 +15356,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "860040878008"
+			(at 35.56 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
@@ -16467,7 +16489,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Part Number" "GMC32X7R106K100NT"
+			(at 68.58 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 69.5452 40.64 0)
 			(hide yes)
 			(show_name no)

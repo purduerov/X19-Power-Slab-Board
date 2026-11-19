@@ -4304,6 +4304,17 @@
 				(justify left)
 			)
 		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 161.29 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 162.2552 77.47 0)
 			(hide yes)
@@ -4604,6 +4615,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
@@ -6869,6 +6891,17 @@
 				)
 			)
 		)
+		(property "Part Number" "100ZLH100MEFC10X20"
+			(at 22.86 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AVAILABILITY" ""
 			(at 22.86 130.81 0)
 			(hide yes)
@@ -7061,6 +7094,17 @@
 				(justify left)
 			)
 		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 131.7752 77.47 0)
 			(hide yes)
@@ -7206,6 +7250,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
@@ -7764,7 +7819,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CGA4J3X7S2A105M125AE"
 			(at 35.56 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8155,7 +8210,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CGA4J3X7S2A105M125AE"
 			(at 119.38 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8291,6 +8346,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
@@ -8619,6 +8685,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "100ZLH100MEFC10X20"
 			(at 119.38 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9658,6 +9735,17 @@
 				)
 			)
 		)
+		(property "Part Number" "100ZLH100MEFC10X20"
+			(at 161.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AVAILABILITY" ""
 			(at 161.29 34.29 0)
 			(hide yes)
@@ -10354,6 +10442,17 @@
 				)
 			)
 		)
+		(property "Part Number" "100ZLH100MEFC10X20"
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AVAILABILITY" ""
 			(at 133.35 34.29 0)
 			(hide yes)
@@ -10645,7 +10744,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CGA4J3X7S2A105M125AE"
 			(at 153.67 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10962,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CGA4J3X7S2A105M125AE"
 			(at 142.24 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12373,6 +12472,17 @@
 				(justify left)
 			)
 		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 161.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 162.2552 97.79 0)
 			(hide yes)
@@ -13233,6 +13343,17 @@
 				)
 			)
 		)
+		(property "Part Number" "100ZLH100MEFC10X20"
+			(at 147.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "AVAILABILITY" ""
 			(at 147.32 34.29 0)
 			(hide yes)
@@ -13583,6 +13704,17 @@
 				(justify left)
 			)
 		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 120.3452 77.47 0)
 			(hide yes)
@@ -13907,7 +14039,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "CGA4J3X7S2A105M125AE"
 			(at 130.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14514,6 +14646,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Part Number" "25CZJ470M10X9"
+			(at 130.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
